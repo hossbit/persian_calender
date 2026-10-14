@@ -4,7 +4,7 @@
 
 ## لینک ثابت اشتراک
 
-https://raw.githubusercontent.com/hossbit/persian-calendar/main/feeds/persian.ics
+https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian.ics
 
 در آیفون: Calendar → Calendars → Add Calendar → Add Subscription Calendar
 
