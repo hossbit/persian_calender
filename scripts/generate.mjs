@@ -17,12 +17,13 @@ export function fold(line) {
 }
 export function event(date) {
   const parts=Object.fromEntries(persian.formatToParts(date).map(p=>[p.type,p.value]));
-  const summary=`${parts.weekday}، ${parts.day} ${parts.month} ${parts.year}`;
+  const summary=`${parts.day} ${parts.month}`;
+  const fullDate=`${parts.weekday}، ${parts.day} ${parts.month} ${parts.year}`;
   return ['BEGIN:VEVENT', `UID:persian-${iso(date)}@hossbit.github.io`,
-    'DTSTAMP:20260101T000000Z', `DTSTART;VALUE=DATE:${iso(date)}`,
+    'DTSTAMP:20261014T165537Z', 'LAST-MODIFIED:20261014T165537Z', 'SEQUENCE:1', `DTSTART;VALUE=DATE:${iso(date)}`,
     `DTEND;VALUE=DATE:${iso(new Date(+date+day))}`,
     `SUMMARY;LANGUAGE=fa:${escapeText(summary)}`,
-    `DESCRIPTION;LANGUAGE=fa:${escapeText('تاریخ شمسی: '+summary+'\nتاریخ میلادی: '+gregorian.format(date))}`,
+    `DESCRIPTION;LANGUAGE=fa:${escapeText('تاریخ شمسی: '+fullDate+'\nتاریخ میلادی: '+gregorian.format(date))}`,
     'TRANSP:TRANSPARENT', 'CLASS:PUBLIC', 'END:VEVENT'];
 }
 export function generate(today=new Date()) {

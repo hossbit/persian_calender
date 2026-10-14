@@ -2,13 +2,14 @@ import assert from 'node:assert/strict';
 import {event,generate} from './generate.mjs';
 import {readFileSync} from 'node:fs';
 for(const [date,title] of [['2024-03-20','۱ فروردین ۱۴۰۳'],['2025-03-20','۳۰ اسفند ۱۴۰۳'],['2025-03-21','۱ فروردین ۱۴۰۴'],['2030-03-21','۱ فروردین ۱۴۰۹']]) {
-  assert(event(new Date(date+'T00:00:00Z')).find(x=>x.startsWith('SUMMARY')).includes(title),date);
+  assert(event(new Date(date+'T00:00:00Z')).find(x=>x.startsWith('DESCRIPTION')).includes(title),date);
 }
 const a=generate(new Date('2026-10-14T00:00:00Z'));
 const b=generate(new Date('2026-10-15T00:00:00Z'));
 assert.equal(a.status.end,'2036-10-14'); assert.equal(b.status.end,'2036-10-15');
 assert.equal(a.status.start,'2025-10-13');
-assert.deepEqual(event(new Date('2026-10-14')),event(new Date('2026-10-14')));
+assert.equal(event(new Date('2026-10-14')).find(x=>x.startsWith('SUMMARY')), 'SUMMARY;LANGUAGE=fa:۲۲ مهر');
+assert.equal(event(new Date('2026-10-14')).find(x=>x.startsWith('UID')), 'UID:persian-20261014@hossbit.github.io');
 function validate(ics) {
   assert(!/(?<!\r)\n/.test(ics));
   for(const line of ics.split('\r\n')) assert(Buffer.byteLength(line)<=75);
