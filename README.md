@@ -1,55 +1,48 @@
-![تقویم شمسی برای آیفون با به‌روزرسانی خودکار](assets/persian-calendar.webp)
+![تقویم شمسی برای آیفون](assets/persian-calendar.webp)
 
+# تقویم شمسی برای آیفون
 
-**[راهنمای انتخاب همهٔ حالت‌ها و لینک‌های اشتراک](SUBSCRIPTIONS.md)**
+تاریخ فارسی، تعطیلات و مناسبت‌ها در Calendar آیفون؛ با لینک ثابت و به‌روزرسانی خودکار.
 
-# تقویم شمسی خودکار برای آیفون
+## شروع سریع
 
-یک بار اشتراک را اضافه کنید؛ برای هر روز یک رویداد تمام‌روز با عنوان و توضیحات فارسی و ارقام فارسی نمایش داده می‌شود.
+۱. از جدول، حالت دلخواه را انتخاب و **آدرس لینک اشتراک را کپی کن**.
 
-## لینک ثابت اشتراک
+۲. در آیفون برو به:
 
-https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian.ics
+`Calendar → Calendars → Add Calendar → Add Subscription Calendar`
 
-در آیفون: Calendar → Calendars → Add Calendar → Add Subscription Calendar
+۳. آدرس را وارد و اشتراک را ذخیره کن. رنگ هر تقویم را می‌توانی خودت انتخاب کنی.
 
-لینک بالا را وارد کنید و نام تقویم را «تقویم شمسی روزانه» بگذارید. هشدارهای این تقویم را خاموش کنید. دانلود و Import نکنید؛ Subscribe کنید تا تغییرات آینده دریافت شوند.
+## کدام را انتخاب کنم؟
 
-## ادامهٔ خودکار بدون سال پایان ثابت
+**فقط تاریخ فارسی:** «تاریخ کوتاه». **تاریخ و تعطیلات با دو رنگ:** «تاریخ کوتاه» + «فقط تعطیلات». **همه‌چیز با یک لینک:** «تاریخ و مناسبت‌ها».
 
-GitHub Actions هر روز اجرا می‌شود و فایل را با یک سال گذشته و ده سال آینده بازتولید می‌کند. بازه هر روز جلو می‌رود و نیازی به تغییر لینک یا ساخت فایل سال جدید نیست. فایل باقی می‌ماند و آفلاین نیز پس از دریافت قابل استفاده است. این یک فایل بی‌نهایت نیست؛ بازه‌ای متحرک است که ادامهٔ آن به فعال بودن حساب، مخزن و GitHub Actions وابسته است. GitHub ممکن است اجراها را با تأخیر انجام دهد. وضعیت آخرین تولید در [feeds/status.json](feeds/status.json) است. هر تولید روزانه تغییرات بازه را ثبت می‌کند و مخزن فعال می‌ماند. در صورت توقف طولانی، از Actions گزینهٔ Run workflow را اجرا کنید.
+| حالت | لینک اشتراک | نمونه در آیفون |
+|---|---|---|
+| تاریخ کوتاه؛ مثل ۲۲ مهر | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian.ics) | <img src="assets/previews/persian.webp" width="180" alt="نمونهٔ نمایشی persian"> |
+| فقط تعطیلات مناسبتی؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays.ics) | <img src="assets/previews/holidays.webp" width="180" alt="نمونهٔ نمایشی holidays"> |
+| تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined.ics) | <img src="assets/previews/combined.webp" width="180" alt="نمونهٔ نمایشی combined"> |
 
-## مشخصات
+<details>
+<summary><strong>۹ حالت دیگر: تاریخ کامل و عددی، مناسبت‌ها، جمعه‌ها و نسخه‌های بدون پیش‌بینی</strong></summary>
 
-- عنوان کوتاه برای نمای کوچک: «۲۲ مهر»؛ روز هفته و سال در توضیحات کامل شمسی و میلادی با حروف و ارقام فارسی هستند.
-- محاسبه با تقویم فارسی ICU داخلی Node.js؛ بدون وابستگی به فایل تاریخ‌های سالانه یا بستهٔ شخص ثالث.
-- شناسهٔ ثابت برای هر روز، ساختار استاندارد ICS با UTF-8 و CRLF و شکستن صحیح خطوط.
-- بدون هشدار، پیوست، دعوت‌نامه یا لینک در رویدادها؛ زمان شما مشغول نمی‌شود.
-- رویداد تمام‌روز بدون منطقهٔ زمانی، تا در سفر روز جابه‌جا نشود.
-- شامل تاریخ روزانه است؛ تعطیلات و مناسبت‌ها اضافه نشده‌اند.
-- چیدمان ماه‌های Apple Calendar را عوض نمی‌کند؛ تاریخ فارسی به صورت رویداد نمایش داده می‌شود. متن دکمه‌ها و رابط خود iOS تابع زبان گوشی است.
-- زمان دریافت فایل را iOS تعیین می‌کند؛ به‌روزرسانی دقیق در نیمه‌شب تضمین نمی‌شود، اما تاریخ‌های آینده از قبل وجود دارند.
-- فایل عمومی است و هیچ اطلاعات شخصی یا دسترسی به قرارهای شما ندارد؛ میزبان ممکن است اطلاعات اتصال دانلود را ثبت کند.
+| حالت | لینک اشتراک | نمونه در آیفون |
+|---|---|---|
+| تاریخ کامل؛ روز هفته، روز، ماه و سال | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-full.ics) | <img src="assets/previews/persian-full.webp" width="180" alt="نمونهٔ نمایشی persian-full"> |
+| تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲ | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric.ics) | <img src="assets/previews/persian-numeric.webp" width="180" alt="نمونهٔ نمایشی persian-numeric"> |
+| همهٔ مناسبت‌ها و تعطیلات؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions.ics) | <img src="assets/previews/occasions.webp" width="180" alt="نمونهٔ نمایشی occasions"> |
+| فقط مناسبت‌های غیرتعطیل؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays.ics) | <img src="assets/previews/non-holidays.webp" width="180" alt="نمونهٔ نمایشی non-holidays"> |
+| مناسبت‌ها و تعطیلات؛ فقط سال جاری و گذشته | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions-current.ics) | <img src="assets/previews/occasions-current.webp" width="180" alt="نمونهٔ نمایشی occasions-current"> |
+| فقط تعطیلات مناسبتی؛ سال جاری و گذشته | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-current.ics) | <img src="assets/previews/holidays-current.webp" width="180" alt="نمونهٔ نمایشی holidays-current"> |
+| مناسبت‌های غیرتعطیل؛ سال جاری و گذشته | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays-current.ics) | <img src="assets/previews/non-holidays-current.webp" width="180" alt="نمونهٔ نمایشی non-holidays-current"> |
+| فقط جمعه‌ها | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/fridays.ics) | <img src="assets/previews/fridays.webp" width="180" alt="نمونهٔ نمایشی fridays"> |
+| تعطیلات مناسبتی به‌همراه جمعه‌ها؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-with-fridays.ics) | <img src="assets/previews/holidays-with-fridays.webp" width="180" alt="نمونهٔ نمایشی holidays-with-fridays"> |
 
-## اجرای محلی
+</details>
 
-Node.js 22 با ICU کامل:
+فقط حالت‌های لازم را اضافه کن؛ لینک‌های هم‌پوشان ممکن است رویداد تکراری نشان بدهند. نسخهٔ ترکیبی را همراه تاریخ کوتاه یا همهٔ مناسبت‌ها اضافه نکن.
 
-```sh
-node scripts/generate.mjs
-node scripts/test.mjs
-```
+تصاویر شبیه‌سازی‌اند. تاریخ‌ها به شکل رویداد تمام‌روز نمایش داده می‌شوند؛ چیدمان ماه‌های خود Calendar تغییر نمی‌کند. مناسبت‌های آینده با «پیش‌بینی» مشخص‌اند و پوشش آن‌ها به دادهٔ موجود منبع وابسته است.
 
-بررسی‌ها شامل مرز نوروز و کبیسه، ادامهٔ بازه، روزهای پیوسته، شناسه‌های یکتا، متن فارسی و ساختار ICS هستند. آزمایش روی آیفون واقعی هنوز انجام نشده است.
-
-## اشتراک جداگانهٔ تعطیلات و مناسبت‌ها
-
-همهٔ مناسبت‌ها و تعطیلات:
-
-https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions.ics
-
-فقط تعطیلات مناسبتی (بدون جمعه‌های معمولی):
-
-https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays.ics
-
-داده‌ها روزانه از [مخزن حسن آهنی](https://github.com/hasan-ahani/shamsi-holidays) دریافت می‌شوند؛ این منبع، داده‌های Time.ir را گردآوری می‌کند و در README مجوز MIT را اعلام کرده است. کد گردآورنده کپی نشده است. دادهٔ سال‌های آینده برآورد است و در عنوان با «پیش‌بینی» مشخص می‌شود. این فایل ادعای تقویم رسمی تأییدشده ندارد. اصلاحات منبع در اجرای بعد دریافت می‌شوند؛ تعطیلی اضطراری، محلی یا تغییراتی که منبع منتشر نکند تضمین نمی‌شوند. در قطعی منبع آخرین دادهٔ سالم حفظ می‌شود. هر سال اجرای خودکار به سراغ سال‌های جدید می‌رود؛ پوشش واقعی به انتشار داده در منبع وابسته است. متن مناسبت‌ها فارسی و ارقام فارسی است. جزئیات منبع و سال‌های موجود در feeds/occasions-status.json ثبت می‌شود.
+[جزئیات فنی و منابع](TECHNICAL.md) · [راهنمای کامل حالت‌ها](SUBSCRIPTIONS.md)
