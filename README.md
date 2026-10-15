@@ -1,8 +1,12 @@
 ![تقویم شمسی برای آیفون](assets/persian-calendar.webp)
 
-# تقویم شمسی برای آیفون
+# تقویم شمسی آیفون | Persian Calendar for iOS
 
-تاریخ فارسی، تعطیلات و مناسبت‌ها در Calendar آیفون؛ با لینک ثابت و به‌روزرسانی خودکار.
+اضافه‌کردن تقویم شمسی (جلالی)، تعطیلات ایران و مناسبت‌های فارسی به Apple Calendar آیفون، با لینک اشتراک ICS ثابت و به‌روزرسانی خودکار روزانه.
+
+Persian / Jalali / Shamsi calendar subscriptions for iPhone and Apple Calendar, with Persian dates, Iranian holidays and daily GitHub Actions updates.
+
+[English guide](README.en.md) · [انتخاب لینک اشتراک](#subscriptions)
 
 تاریخ روزانه و جمعه‌ها: **۱۰ سال گذشته تا ۱۰ سال آینده**؛ بازه هر روز جلو می‌رود. پوشش مناسبت‌ها و تعطیلات به دادهٔ موجود منبع وابسته است.
 
@@ -23,6 +27,8 @@
 ۳. لینک را وارد کن و مراحل افزودن اشتراک را تا پایان ادامه بده. در روش Calendar ابتدا **Find** را بزن و در پایان **Done** را انتخاب کن. رنگ هر تقویم را می‌توانی خودت تغییر بدهی.
 
 [راهنمای اپل: روش Calendar](https://support.apple.com/en-me/102301) · [راهنمای اپل: روش Settings](https://support.apple.com/en-ie/guide/iphone/ipha0d932e96/26/ios/26)
+
+<a id="subscriptions"></a>
 
 ## همهٔ حالت‌های اشتراک
 
