@@ -44,8 +44,8 @@
 <td align="center" valign="middle"><p dir="rtl">چهارشنبه، ۲۲ مهر</p></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-frameless.webp"><img src="assets/previews/persian-frameless.webp" width="240" alt="تاریخ کوتاه؛ مثل ۲۲ مهر"></a></td></tr></tbody></table></td>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-weekday-white.webp"><img src="assets/previews/persian-weekday-white.webp" width="240" alt="روز هفته و تاریخ کوتاه؛ مثل چهارشنبه، ۲۲ مهر"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-uniform.webp"><img src="assets/previews/persian-uniform.webp" width="240" alt="تاریخ کوتاه؛ مثل ۲۲ مهر"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-weekday-uniform.webp"><img src="assets/previews/persian-weekday-uniform.webp" width="240" alt="روز هفته و تاریخ کوتاه؛ مثل چهارشنبه، ۲۲ مهر"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian.ics"><strong>لینک اشتراک</strong></a></td>
@@ -60,8 +60,8 @@
 <td align="center" valign="middle"><p dir="rtl">۱۴۰۵/۰۷/۲۲</p></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-full-frameless.webp"><img src="assets/previews/persian-full-frameless.webp" width="240" alt="تاریخ کامل؛ روز هفته، روز، ماه و سال"></a></td></tr></tbody></table></td>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-numeric-frameless.webp"><img src="assets/previews/persian-numeric-frameless.webp" width="240" alt="تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-full-uniform.webp"><img src="assets/previews/persian-full-uniform.webp" width="240" alt="تاریخ کامل؛ روز هفته، روز، ماه و سال"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-numeric-uniform.webp"><img src="assets/previews/persian-numeric-uniform.webp" width="240" alt="تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-full.ics"><strong>لینک اشتراک</strong></a></td>
@@ -74,7 +74,7 @@
 <td colspan="2" align="center" valign="middle"><p dir="rtl">۰۷/۲۲</p></td>
 </tr>
 <tr>
-<td colspan="2" align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-numeric-short-white.webp"><img src="assets/previews/persian-numeric-short-white.webp" width="240" alt="تاریخ عددی بدون سال؛ مثل ۰۷/۲۲"></a></td></tr></tbody></table></td>
+<td colspan="2" align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/persian-numeric-short-uniform.webp"><img src="assets/previews/persian-numeric-short-uniform.webp" width="240" alt="تاریخ عددی بدون سال؛ مثل ۰۷/۲۲"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td colspan="2" align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric-short.ics"><strong>لینک اشتراک</strong></a></td>
@@ -94,8 +94,8 @@
 <td align="center" valign="middle"><p dir="rtl">تعطیل: جشن نوروز · پیش‌بینی: تعطیل: جشن نوروز</p></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/holidays-frameless.webp"><img src="assets/previews/holidays-frameless.webp" width="240" alt="فقط تعطیلات مناسبتی؛ شامل پیش‌بینی آینده"></a></td></tr></tbody></table></td>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/occasions-frameless.webp"><img src="assets/previews/occasions-frameless.webp" width="240" alt="همهٔ مناسبت‌ها و تعطیلات؛ شامل پیش‌بینی آینده"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/holidays-uniform.webp"><img src="assets/previews/holidays-uniform.webp" width="240" alt="فقط تعطیلات مناسبتی؛ شامل پیش‌بینی آینده"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/occasions-uniform.webp"><img src="assets/previews/occasions-uniform.webp" width="240" alt="همهٔ مناسبت‌ها و تعطیلات؛ شامل پیش‌بینی آینده"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays.ics"><strong>لینک اشتراک</strong></a></td>
@@ -110,8 +110,8 @@
 <td align="center" valign="middle"><p dir="rtl">تعطیل: روز طبیعت</p></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/non-holidays-frameless.webp"><img src="assets/previews/non-holidays-frameless.webp" width="240" alt="فقط مناسبت‌های غیرتعطیل؛ شامل پیش‌بینی آینده"></a></td></tr></tbody></table></td>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/holidays-current-frameless.webp"><img src="assets/previews/holidays-current-frameless.webp" width="240" alt="فقط تعطیلات مناسبتی؛ سال جاری و گذشته"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/non-holidays-uniform.webp"><img src="assets/previews/non-holidays-uniform.webp" width="240" alt="فقط مناسبت‌های غیرتعطیل؛ شامل پیش‌بینی آینده"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/holidays-current-uniform.webp"><img src="assets/previews/holidays-current-uniform.webp" width="240" alt="فقط تعطیلات مناسبتی؛ سال جاری و گذشته"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays.ics"><strong>لینک اشتراک</strong></a></td>
@@ -126,8 +126,8 @@
 <td align="center" valign="middle"><p dir="rtl">روز حافظ</p></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/occasions-current-frameless.webp"><img src="assets/previews/occasions-current-frameless.webp" width="240" alt="مناسبت‌ها و تعطیلات؛ فقط سال جاری و گذشته"></a></td></tr></tbody></table></td>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/non-holidays-current-frameless.webp"><img src="assets/previews/non-holidays-current-frameless.webp" width="240" alt="مناسبت‌های غیرتعطیل؛ سال جاری و گذشته"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/occasions-current-uniform.webp"><img src="assets/previews/occasions-current-uniform.webp" width="240" alt="مناسبت‌ها و تعطیلات؛ فقط سال جاری و گذشته"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/non-holidays-current-uniform.webp"><img src="assets/previews/non-holidays-current-uniform.webp" width="240" alt="مناسبت‌های غیرتعطیل؛ سال جاری و گذشته"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions-current.ics"><strong>لینک اشتراک</strong></a></td>
@@ -142,8 +142,8 @@
 <td align="center" valign="middle"><p dir="rtl">تعطیل: روز طبیعت · جمعه</p></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/fridays-frameless.webp"><img src="assets/previews/fridays-frameless.webp" width="240" alt="فقط جمعه‌ها"></a></td></tr></tbody></table></td>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/holidays-with-fridays-frameless.webp"><img src="assets/previews/holidays-with-fridays-frameless.webp" width="240" alt="تعطیلات مناسبتی به‌همراه جمعه‌ها؛ شامل پیش‌بینی آینده"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/fridays-uniform.webp"><img src="assets/previews/fridays-uniform.webp" width="240" alt="فقط جمعه‌ها"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/holidays-with-fridays-uniform.webp"><img src="assets/previews/holidays-with-fridays-uniform.webp" width="240" alt="تعطیلات مناسبتی به‌همراه جمعه‌ها؛ شامل پیش‌بینی آینده"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/fridays.ics"><strong>لینک اشتراک</strong></a></td>
@@ -164,8 +164,8 @@
 <td align="center" valign="middle"><p dir="rtl">۱ فروردین + تعطیل: جشن نوروز</p></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/dates-holidays-white.webp"><img src="assets/previews/dates-holidays-white.webp" width="240" alt="تاریخ کوتاه و فقط تعطیلات در یک اشتراک"></a></td></tr></tbody></table></td>
-<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/combined-frameless.webp"><img src="assets/previews/combined-frameless.webp" width="240" alt="تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/dates-holidays-uniform.webp"><img src="assets/previews/dates-holidays-uniform.webp" width="240" alt="تاریخ کوتاه و فقط تعطیلات در یک اشتراک"></a></td></tr></tbody></table></td>
+<td align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/combined-uniform.webp"><img src="assets/previews/combined-uniform.webp" width="240" alt="تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/dates-holidays.ics"><strong>لینک اشتراک</strong></a></td>
@@ -178,7 +178,7 @@
 <td colspan="2" align="center" valign="middle"><p dir="rtl">۲۰ مهر + روز حافظ</p></td>
 </tr>
 <tr>
-<td colspan="2" align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/combined-current-white.webp"><img src="assets/previews/combined-current-white.webp" width="240" alt="تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده"></a></td></tr></tbody></table></td>
+<td colspan="2" align="center" valign="middle"><table align="center"><tbody><tr><td align="center" width="260"><a href="assets/previews/combined-current-uniform.webp"><img src="assets/previews/combined-current-uniform.webp" width="240" alt="تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده"></a></td></tr></tbody></table></td>
 </tr>
 <tr>
 <td colspan="2" align="center" valign="middle"><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined-current.ics"><strong>لینک اشتراک</strong></a></td>
