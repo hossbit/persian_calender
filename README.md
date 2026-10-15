@@ -20,25 +20,82 @@
 
 **فقط تاریخ فارسی:** «تاریخ کوتاه». **تاریخ و تعطیلات با دو رنگ:** «تاریخ کوتاه» + «فقط تعطیلات». **همه‌چیز با یک لینک:** «تاریخ و مناسبت‌ها».
 
-| حالت | لینک اشتراک | نمونه در آیفون |
-|---|---|---|
-| تاریخ کوتاه؛ مثل ۲۲ مهر | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian.ics) | <img src="assets/previews/persian.webp" width="180" alt="نمونهٔ نمایشی persian"> |
-| فقط تعطیلات مناسبتی؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays.ics) | <img src="assets/previews/holidays.webp" width="180" alt="نمونهٔ نمایشی holidays"> |
-| تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined.ics) | <img src="assets/previews/combined.webp" width="180" alt="نمونهٔ نمایشی combined"> |
-| تاریخ کامل؛ روز هفته، روز، ماه و سال | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-full.ics) | <img src="assets/previews/persian-full.webp" width="180" alt="نمونهٔ نمایشی persian-full"> |
-| تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲ | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric.ics) | <img src="assets/previews/persian-numeric.webp" width="180" alt="نمونهٔ نمایشی persian-numeric"> |
-| همهٔ مناسبت‌ها و تعطیلات؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions.ics) | <img src="assets/previews/occasions.webp" width="180" alt="نمونهٔ نمایشی occasions"> |
-| فقط مناسبت‌های غیرتعطیل؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays.ics) | <img src="assets/previews/non-holidays.webp" width="180" alt="نمونهٔ نمایشی non-holidays"> |
-| مناسبت‌ها و تعطیلات؛ فقط سال جاری و گذشته | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions-current.ics) | <img src="assets/previews/occasions-current.webp" width="180" alt="نمونهٔ نمایشی occasions-current"> |
-| فقط تعطیلات مناسبتی؛ سال جاری و گذشته | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-current.ics) | <img src="assets/previews/holidays-current.webp" width="180" alt="نمونهٔ نمایشی holidays-current"> |
-| مناسبت‌های غیرتعطیل؛ سال جاری و گذشته | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays-current.ics) | <img src="assets/previews/non-holidays-current.webp" width="180" alt="نمونهٔ نمایشی non-holidays-current"> |
-| فقط جمعه‌ها | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/fridays.ics) | <img src="assets/previews/fridays.webp" width="180" alt="نمونهٔ نمایشی fridays"> |
-| تعطیلات مناسبتی به‌همراه جمعه‌ها؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-with-fridays.ics) | <img src="assets/previews/holidays-with-fridays.webp" width="180" alt="نمونهٔ نمایشی holidays-with-fridays"> |
-| روز هفته و تاریخ کوتاه؛ مثل چهارشنبه، ۲۲ مهر | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-weekday.ics) | <img src="assets/previews/persian-weekday.webp" width="180" alt="نمونهٔ نمایشی persian-weekday"> |
-| تاریخ عددی بدون سال؛ مثل ۰۷/۲۲ | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric-short.ics) | <img src="assets/previews/persian-numeric-short.webp" width="180" alt="نمونهٔ نمایشی persian-numeric-short"> |
-| تاریخ کوتاه و فقط تعطیلات در یک اشتراک | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/dates-holidays.ics) | <img src="assets/previews/dates-holidays.webp" width="180" alt="نمونهٔ نمایشی dates-holidays"> |
-| تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined-current.ics) | <img src="assets/previews/combined-current.webp" width="180" alt="نمونهٔ نمایشی combined-current"> |
+<div align="center">
 
+<table align="center">
+<thead><tr><th align="center">حالت و لینک اشتراک</th><th align="center">پیش‌نمایش آیفون</th></tr></thead>
+<tbody>
+<tr><th colspan="2" align="center">تاریخ روزانه</th></tr>
+<tr>
+<td align="center"><strong>تاریخ کوتاه؛ مثل ۲۲ مهر</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian.ics">لینک اشتراک</a><br><code>persian.ics</code></td>
+<td align="center"><a href="assets/previews/persian.webp"><img src="assets/previews/persian.webp" width="170" alt="پیش‌نمایش تاریخ کوتاه؛ مثل ۲۲ مهر"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>روز هفته و تاریخ کوتاه؛ مثل چهارشنبه، ۲۲ مهر</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-weekday.ics">لینک اشتراک</a><br><code>persian-weekday.ics</code></td>
+<td align="center"><a href="assets/previews/persian-weekday.webp"><img src="assets/previews/persian-weekday.webp" width="170" alt="پیش‌نمایش روز هفته و تاریخ کوتاه؛ مثل چهارشنبه، ۲۲ مهر"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>تاریخ کامل؛ روز هفته، روز، ماه و سال</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-full.ics">لینک اشتراک</a><br><code>persian-full.ics</code></td>
+<td align="center"><a href="assets/previews/persian-full.webp"><img src="assets/previews/persian-full.webp" width="170" alt="پیش‌نمایش تاریخ کامل؛ روز هفته، روز، ماه و سال"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric.ics">لینک اشتراک</a><br><code>persian-numeric.ics</code></td>
+<td align="center"><a href="assets/previews/persian-numeric.webp"><img src="assets/previews/persian-numeric.webp" width="170" alt="پیش‌نمایش تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>تاریخ عددی بدون سال؛ مثل ۰۷/۲۲</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric-short.ics">لینک اشتراک</a><br><code>persian-numeric-short.ics</code></td>
+<td align="center"><a href="assets/previews/persian-numeric-short.webp"><img src="assets/previews/persian-numeric-short.webp" width="170" alt="پیش‌نمایش تاریخ عددی بدون سال؛ مثل ۰۷/۲۲"></a></td>
+</tr>
+<tr><th colspan="2" align="center">تعطیلات و مناسبت‌ها</th></tr>
+<tr>
+<td align="center"><strong>فقط تعطیلات مناسبتی؛ شامل پیش‌بینی آینده</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays.ics">لینک اشتراک</a><br><code>holidays.ics</code></td>
+<td align="center"><a href="assets/previews/holidays.webp"><img src="assets/previews/holidays.webp" width="170" alt="پیش‌نمایش فقط تعطیلات مناسبتی؛ شامل پیش‌بینی آینده"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>همهٔ مناسبت‌ها و تعطیلات؛ شامل پیش‌بینی آینده</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions.ics">لینک اشتراک</a><br><code>occasions.ics</code></td>
+<td align="center"><a href="assets/previews/occasions.webp"><img src="assets/previews/occasions.webp" width="170" alt="پیش‌نمایش همهٔ مناسبت‌ها و تعطیلات؛ شامل پیش‌بینی آینده"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>فقط مناسبت‌های غیرتعطیل؛ شامل پیش‌بینی آینده</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays.ics">لینک اشتراک</a><br><code>non-holidays.ics</code></td>
+<td align="center"><a href="assets/previews/non-holidays.webp"><img src="assets/previews/non-holidays.webp" width="170" alt="پیش‌نمایش فقط مناسبت‌های غیرتعطیل؛ شامل پیش‌بینی آینده"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>فقط تعطیلات مناسبتی؛ سال جاری و گذشته</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-current.ics">لینک اشتراک</a><br><code>holidays-current.ics</code></td>
+<td align="center"><a href="assets/previews/holidays-current.webp"><img src="assets/previews/holidays-current.webp" width="170" alt="پیش‌نمایش فقط تعطیلات مناسبتی؛ سال جاری و گذشته"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>مناسبت‌ها و تعطیلات؛ فقط سال جاری و گذشته</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions-current.ics">لینک اشتراک</a><br><code>occasions-current.ics</code></td>
+<td align="center"><a href="assets/previews/occasions-current.webp"><img src="assets/previews/occasions-current.webp" width="170" alt="پیش‌نمایش مناسبت‌ها و تعطیلات؛ فقط سال جاری و گذشته"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>مناسبت‌های غیرتعطیل؛ سال جاری و گذشته</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays-current.ics">لینک اشتراک</a><br><code>non-holidays-current.ics</code></td>
+<td align="center"><a href="assets/previews/non-holidays-current.webp"><img src="assets/previews/non-holidays-current.webp" width="170" alt="پیش‌نمایش مناسبت‌های غیرتعطیل؛ سال جاری و گذشته"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>فقط جمعه‌ها</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/fridays.ics">لینک اشتراک</a><br><code>fridays.ics</code></td>
+<td align="center"><a href="assets/previews/fridays.webp"><img src="assets/previews/fridays.webp" width="170" alt="پیش‌نمایش فقط جمعه‌ها"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>تعطیلات مناسبتی به‌همراه جمعه‌ها؛ شامل پیش‌بینی آینده</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-with-fridays.ics">لینک اشتراک</a><br><code>holidays-with-fridays.ics</code></td>
+<td align="center"><a href="assets/previews/holidays-with-fridays.webp"><img src="assets/previews/holidays-with-fridays.webp" width="170" alt="پیش‌نمایش تعطیلات مناسبتی به‌همراه جمعه‌ها؛ شامل پیش‌بینی آینده"></a></td>
+</tr>
+<tr><th colspan="2" align="center">ترکیبی؛ چند قابلیت با یک لینک</th></tr>
+<tr>
+<td align="center"><strong>تاریخ کوتاه و فقط تعطیلات در یک اشتراک</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/dates-holidays.ics">لینک اشتراک</a><br><code>dates-holidays.ics</code></td>
+<td align="center"><a href="assets/previews/dates-holidays.webp"><img src="assets/previews/dates-holidays.webp" width="170" alt="پیش‌نمایش تاریخ کوتاه و فقط تعطیلات در یک اشتراک"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined.ics">لینک اشتراک</a><br><code>combined.ics</code></td>
+<td align="center"><a href="assets/previews/combined.webp"><img src="assets/previews/combined.webp" width="170" alt="پیش‌نمایش تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده</strong><br><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined-current.ics">لینک اشتراک</a><br><code>combined-current.ics</code></td>
+<td align="center"><a href="assets/previews/combined-current.webp"><img src="assets/previews/combined-current.webp" width="170" alt="پیش‌نمایش تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده"></a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
 
 فقط حالت‌های لازم را اضافه کن؛ لینک‌های هم‌پوشان ممکن است رویداد تکراری نشان بدهند. نسخهٔ ترکیبی را همراه تاریخ کوتاه یا همهٔ مناسبت‌ها اضافه نکن.
 
