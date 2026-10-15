@@ -16,8 +16,7 @@
 <td align="center" valign="top"><strong>تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲</strong><br><p dir="rtl">۱۴۰۵/۰۷/۲۲</p><a href="assets/previews/persian-numeric-frameless.webp"><img src="assets/previews/persian-numeric-frameless.webp" width="240" alt="تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲"></a><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric.ics"><strong>لینک اشتراک</strong></a></td>
 </tr>
 <tr>
-<td align="center" valign="top"><strong>تاریخ عددی بدون سال؛ مثل ۰۷/۲۲</strong><br><p dir="rtl">۰۷/۲۲</p><a href="assets/previews/persian-numeric-short-frameless.webp"><img src="assets/previews/persian-numeric-short-frameless.webp" width="240" alt="تاریخ عددی بدون سال؛ مثل ۰۷/۲۲"></a><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric-short.ics"><strong>لینک اشتراک</strong></a></td>
-<td></td>
+<td colspan="2" align="center" valign="top"><strong>تاریخ عددی بدون سال؛ مثل ۰۷/۲۲</strong><br><p dir="rtl">۰۷/۲۲</p><a href="assets/previews/persian-numeric-short-frameless.webp"><img src="assets/previews/persian-numeric-short-frameless.webp" width="240" alt="تاریخ عددی بدون سال؛ مثل ۰۷/۲۲"></a><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric-short.ics"><strong>لینک اشتراک</strong></a></td>
 </tr>
 </tbody>
 </table>
@@ -52,8 +51,7 @@
 <td align="center" valign="top"><strong>تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک</strong><br><p dir="rtl">۱ فروردین + تعطیل: جشن نوروز</p><a href="assets/previews/combined-frameless.webp"><img src="assets/previews/combined-frameless.webp" width="240" alt="تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک"></a><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined.ics"><strong>لینک اشتراک</strong></a></td>
 </tr>
 <tr>
-<td align="center" valign="top"><strong>تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده</strong><br><p dir="rtl">۲۰ مهر + روز حافظ</p><a href="assets/previews/combined-current-frameless.webp"><img src="assets/previews/combined-current-frameless.webp" width="240" alt="تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده"></a><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined-current.ics"><strong>لینک اشتراک</strong></a></td>
-<td></td>
+<td colspan="2" align="center" valign="top"><strong>تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده</strong><br><p dir="rtl">۲۰ مهر + روز حافظ</p><a href="assets/previews/combined-current-frameless.webp"><img src="assets/previews/combined-current-frameless.webp" width="240" alt="تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده"></a><br><a href="https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined-current.ics"><strong>لینک اشتراک</strong></a></td>
 </tr>
 </tbody>
 </table>
