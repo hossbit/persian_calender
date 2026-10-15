@@ -13,3 +13,7 @@ const unfold=file=>readFileSync('feeds/'+file,'utf8').replaceAll('\r\n ','');
 assert(/SUMMARY;LANGUAGE=fa:.*[۰-۹]{4}/.test(unfold('persian-full.ics')));
 assert(/SUMMARY;LANGUAGE=fa:[۰-۹]{4}\/[۰-۹]{2}\/[۰-۹]{2}/.test(unfold('persian-numeric.ics')));
 console.log('All subscription variants passed validation.');
+
+assert(/SUMMARY;LANGUAGE=fa:.*[۰-۹]{1,2} [^\r\n۰-۹]+\r/.test(unfold('persian-weekday.ics')));
+assert(/SUMMARY;LANGUAGE=fa:[۰-۹]{2}\/[۰-۹]{2}\r/.test(unfold('persian-numeric-short.ics')));
+for(const file of ['dates-holidays.ics','combined-current.ics'])assert(unfold(file).includes('UID:persian-'));

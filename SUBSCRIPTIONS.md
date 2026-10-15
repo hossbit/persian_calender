@@ -16,6 +16,10 @@
 | فقط جمعه‌ها | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/fridays.ics) | <img src="assets/previews/fridays.webp" width="240" alt="نمونهٔ نمایشی fridays"> |
 | تعطیلات مناسبتی به‌همراه جمعه‌ها؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-with-fridays.ics) | <img src="assets/previews/holidays-with-fridays.webp" width="240" alt="نمونهٔ نمایشی holidays-with-fridays"> |
 | تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined.ics) | <img src="assets/previews/combined.webp" width="240" alt="نمونهٔ نمایشی combined"> |
+| روز هفته و تاریخ کوتاه؛ مثل چهارشنبه، ۲۲ مهر | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-weekday.ics) | <img src="assets/previews/persian-weekday.webp" width="180" alt="نمونهٔ نمایشی persian-weekday"> |
+| تاریخ عددی بدون سال؛ مثل ۰۷/۲۲ | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric-short.ics) | <img src="assets/previews/persian-numeric-short.webp" width="180" alt="نمونهٔ نمایشی persian-numeric-short"> |
+| تاریخ کوتاه و فقط تعطیلات در یک اشتراک | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/dates-holidays.ics) | <img src="assets/previews/dates-holidays.webp" width="180" alt="نمونهٔ نمایشی dates-holidays"> |
+| تاریخ کوتاه و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined-current.ics) | <img src="assets/previews/combined-current.webp" width="180" alt="نمونهٔ نمایشی combined-current"> |
 
 ### انتخاب پیشنهادی
 

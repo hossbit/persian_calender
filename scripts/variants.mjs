@@ -7,11 +7,13 @@ const write=(file,title,events)=>{const lines=['BEGIN:VCALENDAR','VERSION:2.0','
 const dates=parse('persian');
 const dateOf=event=>{const d=event.find(x=>x.startsWith('DTSTART;')).split(':')[1];return new Date(`${d.slice(0,4)}-${d.slice(4,6)}-${d.slice(6,8)}T00:00:00Z`);};
 const numeric=new Intl.DateTimeFormat('fa-IR-u-ca-persian-nu-arabext',{timeZone:'UTC',year:'numeric',month:'2-digit',day:'2-digit'});
-for(const [style,title] of [['full','تاریخ شمسی کامل'],['numeric','تاریخ شمسی عددی']]) {
+for(const [style,title] of [['full','تاریخ شمسی کامل'],['numeric','تاریخ شمسی عددی'],['weekday','روز هفته و تاریخ کوتاه'],['numeric-short','تاریخ عددی بدون سال']]) {
  const events=dates.map(e=>e.map(line=>{
   if(line.startsWith('UID:'))return line.replace('UID:persian-',`UID:persian-${style}-`);
   if(!line.startsWith('SUMMARY;'))return line;
-  const text=style==='full'?e.find(x=>x.startsWith('DESCRIPTION;')).split('تاریخ شمسی: ')[1].split('\\n')[0]:numeric.format(dateOf(e));
+  const full=e.find(x=>x.startsWith('DESCRIPTION;')).split('تاریخ شمسی: ')[1].split('\\n')[0];
+  const parts=Object.fromEntries(numeric.formatToParts(dateOf(e)).map(p=>[p.type,p.value]));
+  const text=style==='weekday'?full.replace(/ [۰-۹]{4}$/,''):style==='numeric-short'?`${parts.month}/${parts.day}`:style==='full'?e.find(x=>x.startsWith('DESCRIPTION;')).split('تاریخ شمسی: ')[1].split('\\n')[0]:numeric.format(dateOf(e));
   return 'SUMMARY;LANGUAGE=fa:'+text;
  }));
  write(`persian-${style}`,title,events);
@@ -24,4 +26,6 @@ const fridays=dates.filter(e=>dateOf(e).getUTCDay()===5).map(e=>e.map(line=>line
 write('fridays','جمعه‌های تقویم',fridays);
 const holidayEvents=parse('holidays'); const holidayDays=new Set(holidayEvents.map(e=>+dateOf(e)));
 write('holidays-with-fridays','تعطیلات و جمعه‌ها',[...holidayEvents,...fridays.filter(e=>!holidayDays.has(+dateOf(e)))]);
+write('dates-holidays','تاریخ شمسی و فقط تعطیلات',[...dates,...holidayEvents]);
+write('combined-current','تاریخ شمسی و مناسبت‌ها بدون پیش‌بینی سال‌های آینده',[...dates,...parse('occasions-current')]);
 console.log('Calendar variants generated.');
