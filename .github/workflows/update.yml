@@ -23,13 +23,17 @@ jobs:
           node-version: '22'
       - name: تولید تاریخ‌های فارسی
         run: node scripts/generate.mjs
+      - name: دریافت خودکار تعطیلات و مناسبت‌ها
+        run: node scripts/occasions.mjs
       - name: بررسی تاریخ‌ها و ساختار تقویم
-        run: node scripts/test.mjs
+        run: |
+          node scripts/test.mjs
+          node scripts/test-occasions.mjs
       - name: انتشار در همان لینک ثابت
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds/
+          git add feeds/ data/
           if ! git diff --cached --quiet; then
             git commit -m 'تمدید خودکار تقویم شمسی'
             git push

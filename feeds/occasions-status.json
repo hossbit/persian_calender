@@ -1,0 +1,20 @@
+{
+  "updated": "2026-10-15T06:26:10.080Z",
+  "events": 444,
+  "holidays": 60,
+  "sources": [
+    {
+      "year": 1404,
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1404.json"
+    },
+    {
+      "year": 1405,
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1405.json"
+    },
+    {
+      "year": 1406,
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1406.json"
+    }
+  ],
+  "futureDates": "برآورد و قابل تغییر"
+}
