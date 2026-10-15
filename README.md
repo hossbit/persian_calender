@@ -10,11 +10,19 @@
 
 ۱. از جدول، حالت دلخواه را انتخاب و **آدرس لینک اشتراک را کپی کن**.
 
-۲. در آیفون برو به:
+۲. یکی از دو مسیر زیر را انتخاب کن:
+
+**از داخل Calendar — در iOS 26 و جدیدتر:**
 
 `Calendar → Calendars → Add Calendar → Add Subscription Calendar`
 
-۳. آدرس را وارد و اشتراک را ذخیره کن. رنگ هر تقویم را می‌توانی خودت انتخاب کنی.
+**از تنظیمات آیفون:**
+
+`Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar`
+
+۳. لینک را وارد کن و مراحل افزودن اشتراک را تا پایان ادامه بده. در روش Calendar ابتدا **Find** را بزن و در پایان **Done** را انتخاب کن. رنگ هر تقویم را می‌توانی خودت تغییر بدهی.
+
+[راهنمای اپل: روش Calendar](https://support.apple.com/en-me/102301) · [راهنمای اپل: روش Settings](https://support.apple.com/en-ie/guide/iphone/ipha0d932e96/26/ios/26)
 
 ## همهٔ حالت‌های اشتراک
 
