@@ -1,0 +1,531 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hossbit//Persian Variants//FA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:تعطیلات؛ بدون پیش‌بینی سال‌های آ
+ ینده
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:holidays-20251124@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20251124
+DTEND;VALUE=DATE:20251125
+SUMMARY;LANGUAGE=fa:تعطیل: شهادت حضرت فاطمه زهرا س
+ لام الله علیها
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۴-۰۹-۰۳\nشهادت
+  حضرت فاطمه زهرا سلام الله علیها\nمنبع: دا
+ ده‌های تایم، از مخزن عمومی حسن آهنی\nتعط
+ یلی‌های اضطراری و استانی تضمین نشده‌ان
+ د.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260103@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+SUMMARY;LANGUAGE=fa:تعطیل: ولادت امام علی علیه الس
+ لام و روز پدر
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۴-۱۰-۱۳\nولادت
+  امام علی علیه السلام و روز پدر\nمنبع: داد
+ ه‌های تایم، از مخزن عمومی حسن آهنی\nتعطی
+ لی‌های اضطراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260117@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+SUMMARY;LANGUAGE=fa:تعطیل: مبعث رسول اکرم (ص)
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۴-۱۰-۲۷\nمبعث 
+ رسول اکرم (ص)\nمنبع: داده‌های تایم، از مخز
+ ن عمومی حسن آهنی\nتعطیلی‌های اضطراری و ا
+ ستانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260204@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+SUMMARY;LANGUAGE=fa:تعطیل: ولادت حضرت قائم عجل الل
+ ه تعالی فرجه و جشن نیمه شعبان
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۴-۱۱-۱۵\nولادت
+  حضرت قائم عجل الله تعالی فرجه و جشن نیمه 
+ شعبان\nمنبع: داده‌های تایم، از مخزن عموم
+ ی حسن آهنی\nتعطیلی‌های اضطراری و استانی 
+ تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260211@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+SUMMARY;LANGUAGE=fa:تعطیل: پیروزی انقلاب اسلامی
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۴-۱۱-۲۲\nپیروز
+ ی انقلاب اسلامی\nمنبع: داده‌های تایم، از 
+ مخزن عمومی حسن آهنی\nتعطیلی‌های اضطراری 
+ و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260311@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY;LANGUAGE=fa:تعطیل: شهادت حضرت علی علیه الس
+ لام
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۴-۱۲-۲۰\nشهادت
+  حضرت علی علیه السلام\nمنبع: داده‌های تای
+ م، از مخزن عمومی حسن آهنی\nتعطیلی‌های اض
+ طراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260320@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY;LANGUAGE=fa:تعطیل: روز ملی شدن صنعت نفت ایر
+ ان
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۴-۱۲-۲۹\nروز م
+ لی شدن صنعت نفت ایران\nمنبع: داده‌های تای
+ م، از مخزن عمومی حسن آهنی\nتعطیلی‌های اض
+ طراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260321@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY;LANGUAGE=fa:تعطیل: جشن نوروز/جشن سال نو؛ عی
+ د سعید فطر
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۱-۰۱\nجشن ن
+ وروز/جشن سال نو\nعید سعید فطر\nمنبع: داده‌
+ های تایم، از مخزن عمومی حسن آهنی\nتعطیلی
+ ‌های اضطراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260322@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY;LANGUAGE=fa:تعطیل: عیدنوروز؛ تعطیل به مناس
+ بت عید سعید فطر
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۱-۰۲\nعیدنو
+ روز\nتعطیل به مناسبت عید سعید فطر\nمنبع: د
+ اده‌های تایم، از مخزن عمومی حسن آهنی\nتع
+ طیلی‌های اضطراری و استانی تضمین نشده‌ا
+ ند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260323@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY;LANGUAGE=fa:تعطیل: عیدنوروز
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۱-۰۳\nعیدنو
+ روز\nمنبع: داده‌های تایم، از مخزن عمومی ح
+ سن آهنی\nتعطیلی‌های اضطراری و استانی تضم
+ ین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260324@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY;LANGUAGE=fa:تعطیل: عیدنوروز
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۱-۰۴\nعیدنو
+ روز\nمنبع: داده‌های تایم، از مخزن عمومی ح
+ سن آهنی\nتعطیلی‌های اضطراری و استانی تضم
+ ین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260401@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY;LANGUAGE=fa:تعطیل: روز جمهوری اسلامی
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۱-۱۲\nروز ج
+ مهوری اسلامی\nمنبع: داده‌های تایم، از مخ
+ زن عمومی حسن آهنی\nتعطیلی‌های اضطراری و 
+ استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260402@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY;LANGUAGE=fa:تعطیل: جشن سیزده به در
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۱-۱۳\nجشن س
+ یزده به در\nمنبع: داده‌های تایم، از مخزن 
+ عمومی حسن آهنی\nتعطیلی‌های اضطراری و است
+ انی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260414@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY;LANGUAGE=fa:تعطیل: شهادت امام جعفر صادق عل
+ یه السلام
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۱-۲۵\nشهادت
+  امام جعفر صادق علیه السلام\nمنبع: داده‌ه
+ ای تایم، از مخزن عمومی حسن آهنی\nتعطیلی‌
+ های اضطراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260528@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+SUMMARY;LANGUAGE=fa:تعطیل: عید سعید قربان
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۳-۰۷\nعید س
+ عید قربان\nمنبع: داده‌های تایم، از مخزن ع
+ مومی حسن آهنی\nتعطیلی‌های اضطراری و استا
+ نی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260604@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY;LANGUAGE=fa:تعطیل: رحلت حضرت امام خمینی
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۳-۱۴\nرحلت 
+ حضرت امام خمینی\nمنبع: داده‌های تایم، از 
+ مخزن عمومی حسن آهنی\nتعطیلی‌های اضطراری 
+ و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260605@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY;LANGUAGE=fa:تعطیل: قیام ۱۵ خرداد؛ عید سعید 
+ غدیر خم
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۳-۱۵\nقیام 
+ ۱۵ خرداد\nعید سعید غدیر خم\nمنبع: داده‌ها
+ ی تایم، از مخزن عمومی حسن آهنی\nتعطیلی‌ه
+ ای اضطراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260625@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY;LANGUAGE=fa:تعطیل: تاسوعای حسینی
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۴-۰۴\nتاسوع
+ ای حسینی\nمنبع: داده‌های تایم، از مخزن عم
+ ومی حسن آهنی\nتعطیلی‌های اضطراری و استان
+ ی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260626@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY;LANGUAGE=fa:تعطیل: عاشورای حسینی
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۴-۰۵\nعاشور
+ ای حسینی\nمنبع: داده‌های تایم، از مخزن عم
+ ومی حسن آهنی\nتعطیلی‌های اضطراری و استان
+ ی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260804@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY;LANGUAGE=fa:تعطیل: اربعین حسینی
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۵-۱۳\nاربعی
+ ن حسینی\nمنبع: داده‌های تایم، از مخزن عمو
+ می حسن آهنی\nتعطیلی‌های اضطراری و استانی
+  تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260812@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY;LANGUAGE=fa:تعطیل: رحلت رسول اکرم؛شهادت ام
+ ام حسن مجتبی علیه السلام
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۵-۲۱\nرحلت 
+ رسول اکرم؛شهادت امام حسن مجتبی علیه السل
+ ام\nمنبع: داده‌های تایم، از مخزن عمومی حس
+ ن آهنی\nتعطیلی‌های اضطراری و استانی تضمی
+ ن نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260814@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY;LANGUAGE=fa:تعطیل: شهادت امام رضا علیه الس
+ لام
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۵-۲۳\nشهادت
+  امام رضا علیه السلام\nمنبع: داده‌های تای
+ م، از مخزن عمومی حسن آهنی\nتعطیلی‌های اض
+ طراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260822@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY;LANGUAGE=fa:تعطیل: شهادت امام حسن عسکری عل
+ یه السلام
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۵-۳۱\nشهادت
+  امام حسن عسکری علیه السلام\nمنبع: داده‌ه
+ ای تایم، از مخزن عمومی حسن آهنی\nتعطیلی‌
+ های اضطراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20260831@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY;LANGUAGE=fa:تعطیل: میلاد رسول اکرم و امام ج
+ عفر صادق علیه السلام
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۶-۰۹\nمیلاد
+  رسول اکرم و امام جعفر صادق علیه السلام\nم
+ نبع: داده‌های تایم، از مخزن عمومی حسن آه
+ نی\nتعطیلی‌های اضطراری و استانی تضمین نش
+ ده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20261114@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY;LANGUAGE=fa:تعطیل: شهادت حضرت فاطمه زهرا س
+ لام الله علیها
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۰۸-۲۳\nشهادت
+  حضرت فاطمه زهرا سلام الله علیها\nمنبع: دا
+ ده‌های تایم، از مخزن عمومی حسن آهنی\nتعط
+ یلی‌های اضطراری و استانی تضمین نشده‌ان
+ د.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20261223@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY;LANGUAGE=fa:تعطیل: ولادت امام علی علیه الس
+ لام و روز پدر
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۱۰-۰۲\nولادت
+  امام علی علیه السلام و روز پدر\nمنبع: داد
+ ه‌های تایم، از مخزن عمومی حسن آهنی\nتعطی
+ لی‌های اضطراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20270106@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY;LANGUAGE=fa:تعطیل: مبعث رسول اکرم (ص)
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۱۰-۱۶\nمبعث 
+ رسول اکرم (ص)\nمنبع: داده‌های تایم، از مخز
+ ن عمومی حسن آهنی\nتعطیلی‌های اضطراری و ا
+ ستانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20270124@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY;LANGUAGE=fa:تعطیل: ولادت حضرت قائم عجل الل
+ ه تعالی فرجه و جشن نیمه شعبان
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۱۱-۰۴\nولادت
+  حضرت قائم عجل الله تعالی فرجه و جشن نیمه 
+ شعبان\nمنبع: داده‌های تایم، از مخزن عموم
+ ی حسن آهنی\nتعطیلی‌های اضطراری و استانی 
+ تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20270211@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY;LANGUAGE=fa:تعطیل: پیروزی انقلاب اسلامی
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۱۱-۲۲\nپیروز
+ ی انقلاب اسلامی\nمنبع: داده‌های تایم، از 
+ مخزن عمومی حسن آهنی\nتعطیلی‌های اضطراری 
+ و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20270301@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY;LANGUAGE=fa:تعطیل: شهادت حضرت علی علیه الس
+ لام
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۱۲-۱۰\nشهادت
+  حضرت علی علیه السلام\nمنبع: داده‌های تای
+ م، از مخزن عمومی حسن آهنی\nتعطیلی‌های اض
+ طراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20270310@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY;LANGUAGE=fa:تعطیل: عید سعید فطر
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۱۲-۱۹\nعید س
+ عید فطر\nمنبع: داده‌های تایم، از مخزن عمو
+ می حسن آهنی\nتعطیلی‌های اضطراری و استانی
+  تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20270311@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY;LANGUAGE=fa:تعطیل: تعطیل به مناسبت عید سعی
+ د فطر
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۱۲-۲۰\nتعطیل
+  به مناسبت عید سعید فطر\nمنبع: داده‌های ت
+ ایم، از مخزن عمومی حسن آهنی\nتعطیلی‌های 
+ اضطراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-20270320@hossbit.github.io
+DTSTAMP:20261015T062610Z
+LAST-MODIFIED:20261015T062610Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY;LANGUAGE=fa:تعطیل: روز ملی شدن صنعت نفت ایر
+ ان
+DESCRIPTION;LANGUAGE=fa:تاریخ شمسی: ۱۴۰۵-۱۲-۲۹\nروز م
+ لی شدن صنعت نفت ایران\nمنبع: داده‌های تای
+ م، از مخزن عمومی حسن آهنی\nتعطیلی‌های اض
+ طراری و استانی تضمین نشده‌اند.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+END:VCALENDAR

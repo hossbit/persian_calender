@@ -25,10 +25,13 @@ jobs:
         run: node scripts/generate.mjs
       - name: دریافت خودکار تعطیلات و مناسبت‌ها
         run: node scripts/occasions.mjs
+      - name: ساخت حالت‌های مختلف اشتراک
+        run: node scripts/variants.mjs
       - name: بررسی تاریخ‌ها و ساختار تقویم
         run: |
           node scripts/test.mjs
           node scripts/test-occasions.mjs
+          node scripts/test-variants.mjs
       - name: انتشار در همان لینک ثابت
         run: |
           git config user.name 'github-actions[bot]'
