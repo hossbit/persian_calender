@@ -8,7 +8,7 @@ const today=new Date(); const year=Number(key(today).slice(0,4));
 mkdirSync('data/occasions',{recursive:true});
 const revisions=existsSync('data/occasions/revisions.json')?JSON.parse(readFileSync('data/occasions/revisions.json','utf8')):{};
 const sources=[]; const all=new Map();
-for(let y=year-1;y<=year+10;y++) {
+for(let y=year-10;y<=year+10;y++) {
  const path=`data/occasions/${y}.json`; const url=root+y+'.json'; let rows;
  try {
   const res=await fetch(url,{signal:AbortSignal.timeout(30000)});
@@ -33,7 +33,7 @@ const clean=s=>fa(s.replace(/\s*\[[^\]]*\]/g,'').replace(/[\r\n]+/g,' ').trim())
 const header=name=>['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//hossbit//Persian Occasions//FA','CALSCALE:GREGORIAN','METHOD:PUBLISH',`X-WR-CALNAME:${name}`,'REFRESH-INTERVAL;VALUE=DURATION:P1D','X-PUBLISHED-TTL:P1D'];
 const nonholidays=header('مناسبت‌های غیرتعطیل');
 const combined=header('تعطیلات و مناسبت‌های ایران'); const holidays=header('تعطیلات ایران'); let count=0;let holidayCount=0;
-const start=new Date(Date.UTC(today.getUTCFullYear()-1,today.getUTCMonth(),today.getUTCDate()));
+const start=new Date(Date.UTC(today.getUTCFullYear()-10,today.getUTCMonth(),today.getUTCDate()));
 const end=new Date(Date.UTC(today.getUTCFullYear()+10,today.getUTCMonth(),today.getUTCDate()+1));
 for(let d=start;d<end;d=new Date(+d+86400000)) {
  const date=key(d); const rows=all.get(date); if(!rows?.length)continue;

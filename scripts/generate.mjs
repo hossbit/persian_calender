@@ -28,7 +28,7 @@ export function event(date) {
 }
 export function generate(today=new Date()) {
   const anchor=new Date(Date.UTC(today.getUTCFullYear(),today.getUTCMonth(),today.getUTCDate()));
-  const start=new Date(+anchor-366*day);
+  const start=new Date(Date.UTC(anchor.getUTCFullYear()-10,anchor.getUTCMonth(),anchor.getUTCDate()));
   const end=new Date(Date.UTC(anchor.getUTCFullYear()+10,anchor.getUTCMonth(),anchor.getUTCDate()+1));
   const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//hossbit//Persian Calendar//FA','CALSCALE:GREGORIAN','METHOD:PUBLISH',
     'X-WR-CALNAME:تقویم شمسی روزانه','NAME;LANGUAGE=fa:تقویم شمسی روزانه',

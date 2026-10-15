@@ -7,7 +7,7 @@ for(const [date,title] of [['2024-03-20','۱ فروردین ۱۴۰۳'],['2025-03
 const a=generate(new Date('2026-10-14T00:00:00Z'));
 const b=generate(new Date('2026-10-15T00:00:00Z'));
 assert.equal(a.status.end,'2036-10-14'); assert.equal(b.status.end,'2036-10-15');
-assert.equal(a.status.start,'2025-10-13');
+assert.equal(a.status.start,'2016-10-14');
 assert.equal(event(new Date('2026-10-14')).find(x=>x.startsWith('SUMMARY')), 'SUMMARY;LANGUAGE=fa:۲۲ مهر');
 assert.equal(event(new Date('2026-10-14')).find(x=>x.startsWith('UID')), 'UID:persian-20261014@hossbit.github.io');
 function validate(ics) {
