@@ -14,7 +14,7 @@
 
 ۳. آدرس را وارد و اشتراک را ذخیره کن. رنگ هر تقویم را می‌توانی خودت انتخاب کنی.
 
-## کدام را انتخاب کنم؟
+## همهٔ حالت‌های اشتراک
 
 **فقط تاریخ فارسی:** «تاریخ کوتاه». **تاریخ و تعطیلات با دو رنگ:** «تاریخ کوتاه» + «فقط تعطیلات». **همه‌چیز با یک لینک:** «تاریخ و مناسبت‌ها».
 
@@ -23,12 +23,6 @@
 | تاریخ کوتاه؛ مثل ۲۲ مهر | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian.ics) | <img src="assets/previews/persian.webp" width="180" alt="نمونهٔ نمایشی persian"> |
 | فقط تعطیلات مناسبتی؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays.ics) | <img src="assets/previews/holidays.webp" width="180" alt="نمونهٔ نمایشی holidays"> |
 | تاریخ کوتاه و همهٔ مناسبت‌ها در یک اشتراک | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined.ics) | <img src="assets/previews/combined.webp" width="180" alt="نمونهٔ نمایشی combined"> |
-
-<details>
-<summary><strong>۹ حالت دیگر: تاریخ کامل و عددی، مناسبت‌ها، جمعه‌ها و نسخه‌های بدون پیش‌بینی</strong></summary>
-
-| حالت | لینک اشتراک | نمونه در آیفون |
-|---|---|---|
 | تاریخ کامل؛ روز هفته، روز، ماه و سال | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-full.ics) | <img src="assets/previews/persian-full.webp" width="180" alt="نمونهٔ نمایشی persian-full"> |
 | تاریخ عددی فارسی؛ مثل ۱۴۰۵/۰۷/۲۲ | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric.ics) | <img src="assets/previews/persian-numeric.webp" width="180" alt="نمونهٔ نمایشی persian-numeric"> |
 | همهٔ مناسبت‌ها و تعطیلات؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions.ics) | <img src="assets/previews/occasions.webp" width="180" alt="نمونهٔ نمایشی occasions"> |
@@ -39,7 +33,6 @@
 | فقط جمعه‌ها | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/fridays.ics) | <img src="assets/previews/fridays.webp" width="180" alt="نمونهٔ نمایشی fridays"> |
 | تعطیلات مناسبتی به‌همراه جمعه‌ها؛ شامل پیش‌بینی آینده | [دریافت / اشتراک](https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-with-fridays.ics) | <img src="assets/previews/holidays-with-fridays.webp" width="180" alt="نمونهٔ نمایشی holidays-with-fridays"> |
 
-</details>
 
 فقط حالت‌های لازم را اضافه کن؛ لینک‌های هم‌پوشان ممکن است رویداد تکراری نشان بدهند. نسخهٔ ترکیبی را همراه تاریخ کوتاه یا همهٔ مناسبت‌ها اضافه نکن.
 
