@@ -5,7 +5,7 @@ for(const name of readdirSync('feeds').filter(n=>n.endsWith('.ics'))) {
  for(const line of raw.split('\r\n'))assert(Buffer.byteLength(line)<=75,name);
  const text=raw.replaceAll('\r\n ','');const events=text.split('BEGIN:VEVENT\r\n').slice(1);assert(events.length>10,name);
  const ids=new Set();
- for(const e of events){const uid=e.match(/^UID:(.*)$/m)[1];assert(!ids.has(uid),name);ids.add(uid);assert(e.includes('TRANSP:TRANSPARENT'));assert(!e.includes('VALARM'));}
+ for(const e of events){const uid=e.match(/^UID:(.*)$/m)[1];assert(!ids.has(uid),name);ids.add(uid);assert(e.includes('TRANSP:TRANSPARENT'));assert(!e.includes('VALARM'));assert(!e.includes('DESCRIPTION'));assert(!e.includes('LOCATION'));}
  if(name.includes('-current'))assert(!text.includes('SUMMARY;LANGUAGE=fa:پیش‌بینی:'));
  if(name==='non-holidays.ics')assert(!text.includes('SUMMARY;LANGUAGE=fa:تعطیل:'));
 }

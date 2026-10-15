@@ -1,5 +1,5 @@
 import {readFileSync,writeFileSync} from 'node:fs';
-import {fold} from './generate.mjs';
+import {fold,fullDateLabel} from './generate.mjs';
 const parse=name=>{const lines=readFileSync(`feeds/${name}.ics`,'utf8').replaceAll('\r\n ','').split('\r\n');const events=[];let current;
  for(const line of lines){if(line==='BEGIN:VEVENT')current=[];if(current)current.push(line);if(line==='END:VEVENT'){events.push(current);current=undefined;}}
  return events;};
@@ -11,9 +11,9 @@ for(const [style,title] of [['full','تاریخ شمسی کامل'],['numeric','
  const events=dates.map(e=>e.map(line=>{
   if(line.startsWith('UID:'))return line.replace('UID:persian-',`UID:persian-${style}-`);
   if(!line.startsWith('SUMMARY;'))return line;
-  const full=e.find(x=>x.startsWith('DESCRIPTION;')).split('تاریخ شمسی: ')[1].split('\\n')[0];
+  const full=fullDateLabel(dateOf(e));
   const parts=Object.fromEntries(numeric.formatToParts(dateOf(e)).map(p=>[p.type,p.value]));
-  const text=style==='weekday'?full.replace(/ [۰-۹]{4}$/,''):style==='numeric-short'?`${parts.month}/${parts.day}`:style==='full'?e.find(x=>x.startsWith('DESCRIPTION;')).split('تاریخ شمسی: ')[1].split('\\n')[0]:numeric.format(dateOf(e));
+  const text=style==='weekday'?full.replace(/ [۰-۹]{4}$/,''):style==='numeric-short'?`${parts.month}/${parts.day}`:style==='full'?fullDateLabel(dateOf(e)):numeric.format(dateOf(e));
   return 'SUMMARY;LANGUAGE=fa:'+text;
  }));
  write(`persian-${style}`,title,events);

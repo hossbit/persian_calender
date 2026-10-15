@@ -4,7 +4,6 @@ import {calendarWindow} from './window.mjs';
 
 const day = 86400000;
 const persian = new Intl.DateTimeFormat('fa-IR-u-ca-persian-nu-arabext', {timeZone:'UTC', year:'numeric', month:'long', day:'numeric', weekday:'long'});
-const gregorian = new Intl.DateTimeFormat('fa-IR-u-ca-gregory-nu-arabext', {timeZone:'UTC', year:'numeric', month:'long', day:'numeric'});
 export const iso = d => d.toISOString().slice(0,10).replaceAll('-','');
 export const escapeText = s => s.replaceAll('\\','\\\\').replaceAll('\n','\\n').replaceAll(';','\\;').replaceAll(',','\\,');
 export function fold(line) {
@@ -16,15 +15,17 @@ export function fold(line) {
   }
   chunks.push(chunk); return chunks.join('\r\n');
 }
+export function fullDateLabel(date) {
+  const parts=Object.fromEntries(persian.formatToParts(date).map(p=>[p.type,p.value]));
+  return `${parts.weekday}، ${parts.day} ${parts.month} ${parts.year}`;
+}
 export function event(date) {
   const parts=Object.fromEntries(persian.formatToParts(date).map(p=>[p.type,p.value]));
   const summary=`${parts.day} ${parts.month}`;
-  const fullDate=`${parts.weekday}، ${parts.day} ${parts.month} ${parts.year}`;
   return ['BEGIN:VEVENT', `UID:persian-${iso(date)}@hossbit.github.io`,
-    'DTSTAMP:20261014T165537Z', 'LAST-MODIFIED:20261014T165537Z', 'SEQUENCE:1', `DTSTART;VALUE=DATE:${iso(date)}`,
+    'DTSTAMP:20261015T170439Z', 'LAST-MODIFIED:20261015T170439Z', 'SEQUENCE:2', `DTSTART;VALUE=DATE:${iso(date)}`,
     `DTEND;VALUE=DATE:${iso(new Date(+date+day))}`,
     `SUMMARY;LANGUAGE=fa:${escapeText(summary)}`,
-    `DESCRIPTION;LANGUAGE=fa:${escapeText('تاریخ شمسی: '+fullDate+'\nتاریخ میلادی: '+gregorian.format(date))}`,
     'TRANSP:TRANSPARENT', 'CLASS:PUBLIC', 'END:VEVENT'];
 }
 export function generate(today=new Date()) {

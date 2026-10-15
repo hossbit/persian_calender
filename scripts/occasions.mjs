@@ -36,13 +36,12 @@ for(let d=start;d<end;d=new Date(+d+86400000)) {
   const estimate=Number(date.slice(0,4))>year;
   const titles=[...new Set(list.map(e=>clean(e.description)))];
   const summary=(estimate?'پیش‌بینی: ':'')+(list.some(e=>e.is_holiday)?'تعطیل: ':'')+titles.join('؛ ');
-  const description='تاریخ شمسی: '+fa(date)+'\n'+titles.join('\n')+'\nمنبع: دریافت مستقیم از تایم (Time.ir)'+(estimate?'\nتاریخ‌های آینده برآورد منبع هستند و ممکن است تغییر کنند.':'')+'\nتعطیلی‌های اضطراری و استانی تضمین نشده‌اند.';
-  const hash=createHash('sha256').update(summary+description).digest('hex');
+  const hash=createHash('sha256').update('details:none\n'+summary).digest('hex');
   // Content revisions are persisted below, so unchanged events keep their revision.
   const id=kind+'-'+iso(d); const previous=revisions[id];
   const revision=previous?.hash===hash?previous:{hash,sequence:(previous?.sequence??-1)+1,stamp:new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}Z$/,'Z')};
   revisions[id]=revision;
-  target.push('BEGIN:VEVENT',`UID:${id}@hossbit.github.io`,`DTSTAMP:${revision.stamp}`,`LAST-MODIFIED:${revision.stamp}`,`SEQUENCE:${revision.sequence}`,`DTSTART;VALUE=DATE:${iso(d)}`,`DTEND;VALUE=DATE:${iso(new Date(+d+86400000))}`,`SUMMARY;LANGUAGE=fa:${escapeText(summary)}`,`DESCRIPTION;LANGUAGE=fa:${escapeText(description)}`,'TRANSP:TRANSPARENT','CLASS:PUBLIC','END:VEVENT');
+  target.push('BEGIN:VEVENT',`UID:${id}@hossbit.github.io`,`DTSTAMP:${revision.stamp}`,`LAST-MODIFIED:${revision.stamp}`,`SEQUENCE:${revision.sequence}`,`DTSTART;VALUE=DATE:${iso(d)}`,`DTEND;VALUE=DATE:${iso(new Date(+d+86400000))}`,`SUMMARY;LANGUAGE=fa:${escapeText(summary)}`,'TRANSP:TRANSPARENT','CLASS:PUBLIC','END:VEVENT');
   if(kind==='occasions')count++;else if(kind==='holidays')holidayCount++;
  }
 }

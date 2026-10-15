@@ -33,7 +33,7 @@ Holiday and occasion coverage depends on the source data available for each year
 
 ## What appears in Calendar?
 
-Feed names, date labels and event descriptions are in Persian. Entries are transparent all-day events with no embedded alarms. The feeds display Persian dates as events; they do not change the native month layout or the language of iOS. Pick a separate color for each subscription in Calendar. Avoid subscribing to overlapping feeds if you do not want duplicate entries.
+Feed names and date labels are in Persian. Events contain only a title and date; no description or location is supplied. Entries are transparent all-day events with no embedded alarms. The feeds display Persian dates as events; they do not change the native month layout or the language of iOS. Pick a separate color for each subscription in Calendar. Avoid subscribing to overlapping feeds if you do not want duplicate entries.
 
 ## Source and technical details
 
