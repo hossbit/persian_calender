@@ -39,5 +39,6 @@ jobs:
           git add feeds/ data/
           if ! git diff --cached --quiet; then
             git commit -m 'تمدید خودکار تقویم شمسی'
+            git pull --rebase origin main
             git push
           fi
