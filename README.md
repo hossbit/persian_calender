@@ -1,5 +1,13 @@
 ![تقویم شمسی برای آیفون](assets/persian-calendar.webp)
 
+<p align="center">
+  <a href="https://github.com/hossbit/persian_calender/actions/workflows/update.yml"><img src="https://github.com/hossbit/persian_calender/actions/workflows/update.yml/badge.svg" alt="وضعیت به‌روزرسانی خودکار تقویم"></a>
+  <a href="#subscriptions"><img src="https://img.shields.io/badge/Format-ICS-0f8b8d" alt="فرمت اشتراک ICS"></a>
+  <a href="https://support.apple.com/102301"><img src="https://img.shields.io/badge/Apple-Calendar-555555?logo=apple" alt="سازگار با Apple Calendar"></a>
+  <a href="TECHNICAL.md"><img src="https://img.shields.io/badge/Dates-%C2%B110_years-2563eb" alt="تاریخ روزانه از ده سال گذشته تا ده سال آینده"></a>
+  <a href="#subscriptions"><img src="https://img.shields.io/badge/Subscriptions-16-0f8b8d" alt="شانزده حالت اشتراک"></a>
+</p>
+
 # تقویم شمسی آیفون | Persian Calendar for iOS
 
 اضافه‌کردن تقویم شمسی (جلالی)، تعطیلات ایران و مناسبت‌های فارسی به Apple Calendar آیفون، با لینک اشتراک ICS ثابت و به‌روزرسانی خودکار روزانه.
