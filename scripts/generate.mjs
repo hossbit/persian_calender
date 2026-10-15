@@ -1,5 +1,6 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
+import {calendarWindow} from './window.mjs';
 
 const day = 86400000;
 const persian = new Intl.DateTimeFormat('fa-IR-u-ca-persian-nu-arabext', {timeZone:'UTC', year:'numeric', month:'long', day:'numeric', weekday:'long'});
@@ -27,12 +28,10 @@ export function event(date) {
     'TRANSP:TRANSPARENT', 'CLASS:PUBLIC', 'END:VEVENT'];
 }
 export function generate(today=new Date()) {
-  const anchor=new Date(Date.UTC(today.getUTCFullYear(),today.getUTCMonth(),today.getUTCDate()));
-  const start=new Date(Date.UTC(anchor.getUTCFullYear()-10,anchor.getUTCMonth(),anchor.getUTCDate()));
-  const end=new Date(Date.UTC(anchor.getUTCFullYear()+10,anchor.getUTCMonth(),anchor.getUTCDate()+1));
+  const {anchor,start,end}=calendarWindow(today);
   const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//hossbit//Persian Calendar//FA','CALSCALE:GREGORIAN','METHOD:PUBLISH',
     'X-WR-CALNAME:تقویم شمسی روزانه','NAME;LANGUAGE=fa:تقویم شمسی روزانه',
-    'X-WR-CALDESC:تاریخ فارسی هر روز با تمدید خودکار و پوشش ده سال آینده',
+    'X-WR-CALDESC:تاریخ فارسی هر روز با تمدید خودکار و پوشش ده سال گذشته و ده سال آینده',
     'REFRESH-INTERVAL;VALUE=DURATION:P1D','X-PUBLISHED-TTL:P1D'];
   let count=0;
   for(let date=start;date<end;date=new Date(+date+day)) {lines.push(...event(date));count++;}

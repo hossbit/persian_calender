@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:تقویم شمسی روزانه
 NAME;LANGUAGE=fa:تقویم شمسی روزانه
 X-WR-CALDESC:تاریخ فارسی هر روز با تمدید خودکار
-  و پوشش ده سال آینده
+  و پوشش ده سال گذشته و ده سال آینده
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT

@@ -1,40 +1,124 @@
 {
-  "updated": "2026-10-15T08:27:28.863Z",
+  "updated": "2026-10-15T16:39:26.993Z",
   "events": 1470,
   "holidays": 216,
   "sources": [
     {
       "year": 1399,
-      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1399.json"
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1399.json",
+      "mode": "fresh",
+      "lastSuccess": "2026-10-15T16:39:23.699Z"
     },
     {
       "year": 1400,
-      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1400.json"
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1400.json",
+      "mode": "fresh",
+      "lastSuccess": "2026-10-15T16:39:23.874Z"
     },
     {
       "year": 1401,
-      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1401.json"
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1401.json",
+      "mode": "fresh",
+      "lastSuccess": "2026-10-15T16:39:24.109Z"
     },
     {
       "year": 1402,
-      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1402.json"
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1402.json",
+      "mode": "fresh",
+      "lastSuccess": "2026-10-15T16:39:24.313Z"
     },
     {
       "year": 1403,
-      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1403.json"
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1403.json",
+      "mode": "fresh",
+      "lastSuccess": "2026-10-15T16:39:24.680Z"
     },
     {
       "year": 1404,
-      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1404.json"
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1404.json",
+      "mode": "fresh",
+      "lastSuccess": "2026-10-15T16:39:24.911Z"
     },
     {
       "year": 1405,
-      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1405.json"
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1405.json",
+      "mode": "fresh",
+      "lastSuccess": "2026-10-15T16:39:25.131Z"
     },
     {
       "year": 1406,
-      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1406.json"
+      "url": "https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/1406.json",
+      "mode": "fresh",
+      "lastSuccess": "2026-10-15T16:39:25.437Z"
     }
   ],
+  "unavailable": [
+    {
+      "year": 1395,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1396,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1397,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1398,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1407,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1408,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1409,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1410,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1411,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1412,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1413,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1414,
+      "error": "HTTP 404"
+    },
+    {
+      "year": 1415,
+      "error": "HTTP 404"
+    }
+  ],
+  "coverage": {
+    "start": "20161015",
+    "end": "20361015",
+    "availableYears": [
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405,
+      1406
+    ]
+  },
   "futureDates": "برآورد و قابل تغییر"
 }
