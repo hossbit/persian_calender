@@ -35,17 +35,17 @@ export function validateYear(rows, year) {
   }
   return rows;
 }
-export async function fetchYear(url, year, { fetcher = fetch, timeoutMs = 8000 } = {}) {
+export async function fetchYear(url, year, { fetcher = fetch, timeoutMs = 8000, decode = response => response.json(), request = {} } = {}) {
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
-      const response = await fetcher(url, { signal: AbortSignal.timeout(timeoutMs) });
+      const response = await fetcher(url, { ...request, signal: AbortSignal.timeout(timeoutMs) });
       if (!response.ok) {
         const error = new Error(`HTTP ${response.status}`);
         error.retryable = response.status === 429 || response.status >= 500;
         throw error;
       }
       // Keep parsing inside the timeout/retry boundary.
-      return validateYear(await response.json(), year);
+      return validateYear(await decode(response), year);
     } catch (error) {
       const transient = error.retryable || error.name === 'TimeoutError' || error.name === 'AbortError' || error instanceof TypeError;
       if (!transient || attempt === 1) throw error;

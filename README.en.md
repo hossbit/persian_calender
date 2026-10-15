@@ -37,6 +37,6 @@ Feed names, date labels and event descriptions are in Persian. Entries are trans
 
 ## Source and technical details
 
-Occasion data is fetched from [hasan-ahani/shamsi-holidays](https://github.com/hasan-ahani/shamsi-holidays), which collects Time.ir data. These feeds are not presented as an officially verified calendar. See [technical documentation](TECHNICAL.md), [daily-date status](feeds/status.json), and [occasion coverage](feeds/occasions-status.json).
+Occasion data is fetched directly from the public [Time.ir yearly calendar](https://www.time.ir/event-year) by the collector included in this repository. No intermediary GitHub repository is fetched. These feeds are not presented as an officially verified calendar. See [technical documentation](TECHNICAL.md), [daily-date status](feeds/status.json), and [occasion coverage](feeds/occasions-status.json).
 
 [Apple: calendar subscriptions](https://support.apple.com/102301) · [Apple: calendar accounts in Settings](https://support.apple.com/en-ie/guide/iphone/ipha0d932e96/26/ios/26)

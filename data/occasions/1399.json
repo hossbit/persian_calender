@@ -7,11 +7,11 @@
         "is_holiday": true
       },
       {
-        "description": "شهادت امام موسی کاظم علیه السلام [ ٢٥ رجب ]",
+        "description": "شهادت امام موسی کاظم (ع)",
         "is_holiday": false
       },
       {
-        "description": "روز جهانی شادی [ 20 March ]",
+        "description": "روز جهانی شادی",
         "is_holiday": false
       }
     ],
@@ -25,7 +25,7 @@
         "is_holiday": true
       },
       {
-        "description": "روز جهانی نوروز [ 21 March ]",
+        "description": "روز جهانی نوروز",
         "is_holiday": false
       }
     ],
@@ -39,7 +39,7 @@
         "is_holiday": true
       },
       {
-        "description": "مبعث رسول اکرم (ص) [ ٢٧ رجب ]",
+        "description": "مبعث رسول اکرم (ص)",
         "is_holiday": true
       }
     ],
@@ -53,7 +53,7 @@
         "is_holiday": true
       },
       {
-        "description": "روز جهانی هواشناسی [ 23 March ]",
+        "description": "روز جهانی هواشناسی",
         "is_holiday": false
       }
     ],
@@ -77,7 +77,7 @@
     "date": "1399-01-08",
     "events": [
       {
-        "description": "روز جهانی تئاتر [ 27 March ]",
+        "description": "روز جهانی تئاتر",
         "is_holiday": false
       }
     ],
@@ -87,7 +87,7 @@
     "date": "1399-01-09",
     "events": [
       {
-        "description": "ولادت سالار شهیدان، امام حسین علیه السلام و روز پاسدار [ ٣ شعبان ]",
+        "description": "ولادت سالار شهیدان، امام حسین (ع) و روز پاسدار",
         "is_holiday": false
       }
     ],
@@ -101,7 +101,7 @@
         "is_holiday": false
       },
       {
-        "description": "ولادت ابوالفضل العباس علیه السلام و روز جانباز [ ٤ شعبان ]",
+        "description": "ولادت حضرت ابوالفضل العباس (ع) و روز جانباز",
         "is_holiday": false
       }
     ],
@@ -111,7 +111,7 @@
     "date": "1399-01-11",
     "events": [
       {
-        "description": "ولادت امام زین العابدین علیه السلام [ ٥ شعبان ]",
+        "description": "ولادت امام زین العابدین (ع)",
         "is_holiday": false
       }
     ],
@@ -145,7 +145,7 @@
         "is_holiday": false
       },
       {
-        "description": "ولادت علی اکبر علیه السلام و روز جوان [ ١١ شعبان ]",
+        "description": "ولادت حضرت علی اکبر (ع) و روز جوان",
         "is_holiday": false
       }
     ],
@@ -155,7 +155,7 @@
     "date": "1399-01-19",
     "events": [
       {
-        "description": "روز جهانی بهداشت [ 7 April ]",
+        "description": "روز جهانی بهداشت",
         "is_holiday": false
       },
       {
@@ -169,7 +169,7 @@
     "date": "1399-01-21",
     "events": [
       {
-        "description": "ولادت حضرت قائم عجل الله تعالی فرجه و جشن نیمه شعبان [ ١٥ شعبان ]",
+        "description": "ولادت حضرت قائم عجل الله تعالی فرجه و جشن نیمه شعبان",
         "is_holiday": true
       }
     ],
@@ -229,7 +229,7 @@
     "date": "1399-02-03",
     "events": [
       {
-        "description": "جشن گیاه آوری؛ روز زمین [ 22 April ]",
+        "description": "جشن گیاه آوری؛ روز زمین",
         "is_holiday": false
       },
       {
@@ -243,7 +243,7 @@
     "date": "1399-02-08",
     "events": [
       {
-        "description": "روز جهانی طراحی و گرافیک [ 27 April ]",
+        "description": "روز جهانی طراحی و گرافیک",
         "is_holiday": false
       }
     ],
@@ -277,7 +277,7 @@
         "is_holiday": false
       },
       {
-        "description": "روزجهانی کارگر [ 1 May ]",
+        "description": "روزجهانی  کارگر",
         "is_holiday": false
       }
     ],
@@ -297,7 +297,7 @@
     "date": "1399-02-16",
     "events": [
       {
-        "description": "روز جهانی ماما [ 5 May ]",
+        "description": "روز جهانی ماما",
         "is_holiday": false
       }
     ],
@@ -307,7 +307,7 @@
     "date": "1399-02-19",
     "events": [
       {
-        "description": "روز جهانی صلیب سرخ و هلال احمر [ 8 May ]",
+        "description": "روز جهانی صلیب سرخ و هلال احمر",
         "is_holiday": false
       }
     ],
@@ -317,7 +317,7 @@
     "date": "1399-02-20",
     "events": [
       {
-        "description": "ولادت امام حسن مجتبی علیه السلام [ ١٥ رمضان ]",
+        "description": "ولادت امام حسن مجتبی (ع)",
         "is_holiday": false
       }
     ],
@@ -337,11 +337,11 @@
     "date": "1399-02-23",
     "events": [
       {
-        "description": "شب قدر [ ١٨ رمضان ]",
+        "description": "شب قدر",
         "is_holiday": false
       },
       {
-        "description": "روز جهانی پرستار [ 12 May ]",
+        "description": "روز جهانی پرستار",
         "is_holiday": false
       }
     ],
@@ -351,7 +351,7 @@
     "date": "1399-02-24",
     "events": [
       {
-        "description": "ضربت خوردن حضرت علی علیه السلام [ ١٩ رمضان ]",
+        "description": "ضربت خوردن حضرت علی (ع)",
         "is_holiday": false
       }
     ],
@@ -371,7 +371,7 @@
     "date": "1399-02-26",
     "events": [
       {
-        "description": "شهادت حضرت علی علیه السلام [ ٢١ رمضان ]",
+        "description": "شهادت حضرت علی  (ع)",
         "is_holiday": true
       }
     ],
@@ -385,7 +385,7 @@
         "is_holiday": false
       },
       {
-        "description": "شب قدر [ ٢٢ رمضان ]",
+        "description": "شب قدر",
         "is_holiday": false
       }
     ],
@@ -405,7 +405,7 @@
     "date": "1399-02-29",
     "events": [
       {
-        "description": "روز جهانی موزه و میراث فرهنگی [ 18 May ]",
+        "description": "روز جهانی موزه و میراث فرهنگی",
         "is_holiday": false
       }
     ],
@@ -439,7 +439,7 @@
     "date": "1399-03-04",
     "events": [
       {
-        "description": "عید سعید فطر [ ١ شوال ]",
+        "description": "عید سعید فطر",
         "is_holiday": true
       },
       {
@@ -453,7 +453,7 @@
     "date": "1399-03-05",
     "events": [
       {
-        "description": "تعطیل به مناسبت عید سعید فطر [ ٢ شوال ]",
+        "description": "تعطیل به مناسبت عید سعید فطر",
         "is_holiday": true
       }
     ],
@@ -473,7 +473,7 @@
     "date": "1399-03-11",
     "events": [
       {
-        "description": "روز جهانی بدون دخانیات [ 31 May ]",
+        "description": "روز جهانی بدون دخانیات",
         "is_holiday": false
       }
     ],
@@ -503,7 +503,7 @@
     "date": "1399-03-16",
     "events": [
       {
-        "description": "روز جهانی محیط زیست [ 5 June ]",
+        "description": "روز جهانی محیط زیست",
         "is_holiday": false
       }
     ],
@@ -513,7 +513,7 @@
     "date": "1399-03-21",
     "events": [
       {
-        "description": "روز جهانی صنایع دستی [ 10 June ]",
+        "description": "روز جهانی صنایع دستی",
         "is_holiday": false
       }
     ],
@@ -523,7 +523,7 @@
     "date": "1399-03-23",
     "events": [
       {
-        "description": "روز جهانی مبارزه با کار کودکان [ 12 June ]",
+        "description": "روز جهانی مبارزه با کار کودکان",
         "is_holiday": false
       }
     ],
@@ -537,7 +537,7 @@
         "is_holiday": false
       },
       {
-        "description": "روز جهانی اهدای خون [ 14 June ]",
+        "description": "روز جهانی اهدای خون",
         "is_holiday": false
       }
     ],
@@ -547,7 +547,7 @@
     "date": "1399-03-27",
     "events": [
       {
-        "description": "روز جهانی پدر [ 16 June ]",
+        "description": "روز جهانی پدر",
         "is_holiday": false
       }
     ],
@@ -557,11 +557,11 @@
     "date": "1399-03-28",
     "events": [
       {
-        "description": "روز جهانی بیابان زدایی [ 17 June ]",
+        "description": "روز جهانی بیابان زدایی",
         "is_holiday": false
       },
       {
-        "description": "شهادت امام جعفر صادق علیه السلام [ ٢٥ شوال ]",
+        "description": "شهادت امام جعفر صادق  (ع)",
         "is_holiday": true
       }
     ],
@@ -591,7 +591,7 @@
     "date": "1399-04-03",
     "events": [
       {
-        "description": "ولادت حضرت معصومه سلام الله علیها و روز دختران [ ١ ذوالقعده ]",
+        "description": "ولادت حضرت معصومه (س)، روز دختران",
         "is_holiday": false
       }
     ],
@@ -601,7 +601,7 @@
     "date": "1399-04-06",
     "events": [
       {
-        "description": "روز جهانی مبارزه با مواد مخدر [ 26 June ]",
+        "description": "روز جهانی مبارزه با مواد مخدر",
         "is_holiday": false
       }
     ],
@@ -611,7 +611,7 @@
     "date": "1399-04-07",
     "events": [
       {
-        "description": "انفجار دفتر حزب جمهوری اسلامی و شهادت دکتر بهشتی و 72 نفر از اعضای حزب؛ روز قوه قضاییه",
+        "description": "انفجار دفتر حزب جمهوری اسلامی؛ روز قوه قضاییه",
         "is_holiday": false
       }
     ],
@@ -663,7 +663,7 @@
         "is_holiday": false
       },
       {
-        "description": "ولادت امام رضا علیه السلام [ ١١ ذوالقعده ]",
+        "description": "ولادت امام رضا (ع)",
         "is_holiday": false
       }
     ],
@@ -674,16 +674,6 @@
     "events": [
       {
         "description": "روز قلم",
-        "is_holiday": false
-      }
-    ],
-    "is_holiday": false
-  },
-  {
-    "date": "1399-04-15",
-    "events": [
-      {
-        "description": "جشن خام خواری",
         "is_holiday": false
       }
     ],
@@ -723,7 +713,7 @@
     "date": "1399-04-31",
     "events": [
       {
-        "description": "شهادت امام محمد تقی علیه السلام [ ٢٩ ذوالقعده ]",
+        "description": "شهادت امام محمّد تقی (ع)",
         "is_holiday": false
       }
     ],
@@ -733,11 +723,11 @@
     "date": "1399-05-07",
     "events": [
       {
-        "description": "اَمرداد روز،جشن اَمردادگان",
+        "description": "اَمرداد روز،جشن  اَمردادگان",
         "is_holiday": false
       },
       {
-        "description": "شهادت امام محمد باقر علیه السلام [ ٧ ذوالحجه ]",
+        "description": "شهادت امام محمد باقر  (ع)",
         "is_holiday": false
       }
     ],
@@ -757,7 +747,7 @@
     "date": "1399-05-09",
     "events": [
       {
-        "description": "روز عرفه [ ٩ ذوالحجه ]",
+        "description": "روز عرفه",
         "is_holiday": false
       }
     ],
@@ -771,7 +761,7 @@
         "is_holiday": false
       },
       {
-        "description": "عید سعید قربان [ ١٠ ذوالحجه ]",
+        "description": "عید سعید قربان",
         "is_holiday": true
       }
     ],
@@ -781,7 +771,7 @@
     "date": "1399-05-11",
     "events": [
       {
-        "description": "آغاز هفته جهانی شیردهی [ 1 August ]",
+        "description": "آغاز هفته جهانی شیردهی",
         "is_holiday": false
       }
     ],
@@ -801,7 +791,7 @@
     "date": "1399-05-15",
     "events": [
       {
-        "description": "ولادت امام علی النقی الهادی علیه السلام [ ١٥ ذوالحجه ]",
+        "description": "ولادت امام علی النقی (ع)",
         "is_holiday": false
       }
     ],
@@ -813,6 +803,10 @@
       {
         "description": "روز خبرنگار",
         "is_holiday": false
+      },
+      {
+        "description": "کشتار کارکنان کنسولگری ایران در مزار شریف به دستِ طالبان [ ۱۳۷۷خورشیدی ]",
+        "is_holiday": false
       }
     ],
     "is_holiday": false
@@ -821,7 +815,7 @@
     "date": "1399-05-18",
     "events": [
       {
-        "description": "عید سعید غدیر خم [ ١٨ ذوالحجه ]",
+        "description": "عید سعید غدیر خم",
         "is_holiday": true
       }
     ],
@@ -831,7 +825,7 @@
     "date": "1399-05-20",
     "events": [
       {
-        "description": "ولادت امام موسی کاظم علیه السلام [ ٢٠ ذوالحجه ]",
+        "description": "ولادت امام موسی کاظم  (ع)",
         "is_holiday": false
       }
     ],
@@ -841,7 +835,7 @@
     "date": "1399-05-23",
     "events": [
       {
-        "description": "روز جهانی چپ دست ها [ 13 August ]",
+        "description": "روز جهانی چپ دست ها",
         "is_holiday": false
       }
     ],
@@ -851,7 +845,7 @@
     "date": "1399-05-28",
     "events": [
       {
-        "description": "سالروز وقایع 28 مرداد پس از برکناری محمد مصدق‌السلطنه",
+        "description": "سالروز وقایع ۲۸ مرداد پس از برکناری محمد مصدق‌السلطنه",
         "is_holiday": false
       },
       {
@@ -865,7 +859,7 @@
     "date": "1399-05-29",
     "events": [
       {
-        "description": "روز جهانی عکاسی [ 19 August ]",
+        "description": "روز جهانی عکاسی",
         "is_holiday": false
       }
     ],
@@ -923,7 +917,7 @@
         "is_holiday": false
       },
       {
-        "description": "تاسوعای حسینی [ ٩ محرم ]",
+        "description": "تاسوعای حسینی",
         "is_holiday": true
       }
     ],
@@ -933,7 +927,7 @@
     "date": "1399-06-09",
     "events": [
       {
-        "description": "عاشورای حسینی [ ١٠ محرم ]",
+        "description": "عاشورای حسینی",
         "is_holiday": true
       }
     ],
@@ -943,11 +937,11 @@
     "date": "1399-06-11",
     "events": [
       {
-        "description": "روزصنعت چاپ",
+        "description": "روز ملی صنعت چاپ",
         "is_holiday": false
       },
       {
-        "description": "شهادت امام زین العابدین علیه السلام [ ١٢ محرم ]",
+        "description": "شهادت  امام زین العابدین (ع)",
         "is_holiday": false
       }
     ],
@@ -977,7 +971,7 @@
     "date": "1399-06-20",
     "events": [
       {
-        "description": "روز جهانی پیشگیری از خودکشی [ 10 September ]",
+        "description": "روز جهانی پیشگیری از خودکشی",
         "is_holiday": false
       }
     ],
@@ -991,7 +985,7 @@
         "is_holiday": false
       },
       {
-        "description": "حمله به برج‌های دوقلوی مرکز تجارت جهانی [ 11 September ]",
+        "description": "حمله به برج‌های دوقلوی مرکز تجارت جهانی",
         "is_holiday": false
       }
     ],
@@ -1001,7 +995,7 @@
     "date": "1399-06-27",
     "events": [
       {
-        "description": "روز شعر و ادب پارسی و روز بزرگداشت استاد شهریار",
+        "description": "روز شعر و ادب پارسی و  روز بزرگداشت استاد شهریار",
         "is_holiday": false
       }
     ],
@@ -1015,7 +1009,7 @@
         "is_holiday": false
       },
       {
-        "description": "روز جهانی صلح [ 21 September ]",
+        "description": "روز جهانی صلح",
         "is_holiday": false
       }
     ],
@@ -1045,7 +1039,7 @@
     "date": "1399-07-06",
     "events": [
       {
-        "description": "روز جهانی جهانگردی [ 27 September ]",
+        "description": "روز جهانی جهانگردی",
         "is_holiday": false
       }
     ],
@@ -1073,7 +1067,7 @@
     "date": "1399-07-08",
     "events": [
       {
-        "description": "روزبزرگداشت مولوی",
+        "description": "روز بزرگداشت مولوی",
         "is_holiday": false
       }
     ],
@@ -1083,11 +1077,11 @@
     "date": "1399-07-09",
     "events": [
       {
-        "description": "روز جهانی ناشنوایان [ 30 September ]",
+        "description": "روز جهانی ناشنوایان",
         "is_holiday": false
       },
       {
-        "description": "روز جهانی ترجمه و مترجم [ 30 September ]",
+        "description": "روز جهانی ترجمه و مترجم",
         "is_holiday": false
       }
     ],
@@ -1097,11 +1091,11 @@
     "date": "1399-07-10",
     "events": [
       {
-        "description": "مهر روز،جشن مهرگان",
+        "description": "جشن مهرگان، خیزش کاوه و پیروزی فریدون بر ضحاک",
         "is_holiday": false
       },
       {
-        "description": "روز جهانی سالمندان [ 1 October ]",
+        "description": "روز جهانی سالمندان",
         "is_holiday": false
       }
     ],
@@ -1111,7 +1105,7 @@
     "date": "1399-07-13",
     "events": [
       {
-        "description": "آغاز هفته جهانی فضا [ 4 October ]",
+        "description": "آغاز هفته جهانی فضا",
         "is_holiday": false
       }
     ],
@@ -1125,7 +1119,17 @@
         "is_holiday": false
       },
       {
-        "description": "روز جهانی معلم [ 5 October ]",
+        "description": "روز جهانی معلم",
+        "is_holiday": false
+      }
+    ],
+    "is_holiday": false
+  },
+  {
+    "date": "1399-07-15",
+    "events": [
+      {
+        "description": "جشن مهرگان بزرگ، به بندکشیدن ضحاک در کوه دماوند",
         "is_holiday": false
       }
     ],
@@ -1145,7 +1149,7 @@
     "date": "1399-07-17",
     "events": [
       {
-        "description": "اربعین حسینی [ ٢٠ صفر ]",
+        "description": "اربعین حسینی",
         "is_holiday": true
       }
     ],
@@ -1155,17 +1159,7 @@
     "date": "1399-07-18",
     "events": [
       {
-        "description": "روز جهانی پست [ 9 October ]",
-        "is_holiday": false
-      }
-    ],
-    "is_holiday": false
-  },
-  {
-    "date": "1399-07-19",
-    "events": [
-      {
-        "description": "روز جهانی مبارزه با حکم اعدام [ 10 October ]",
+        "description": "روز جهانی پست",
         "is_holiday": false
       }
     ],
@@ -1179,17 +1173,7 @@
         "is_holiday": false
       },
       {
-        "description": "روز جهانی دختر [ 11 October ]",
-        "is_holiday": false
-      }
-    ],
-    "is_holiday": false
-  },
-  {
-    "date": "1399-07-21",
-    "events": [
-      {
-        "description": "روز پیروزی کاوه و فریدون بر ضحاک",
+        "description": "روز جهانی دختر",
         "is_holiday": false
       }
     ],
@@ -1199,7 +1183,7 @@
     "date": "1399-07-23",
     "events": [
       {
-        "description": "روز جهانی استاندارد [ 14 October ]",
+        "description": "روز جهانی استاندارد",
         "is_holiday": false
       }
     ],
@@ -1209,7 +1193,7 @@
     "date": "1399-07-24",
     "events": [
       {
-        "description": "روز جهانی عصای سفید [ 15 October ]",
+        "description": "روز جهانی عصای سفید",
         "is_holiday": false
       }
     ],
@@ -1219,11 +1203,11 @@
     "date": "1399-07-25",
     "events": [
       {
-        "description": "رحلت رسول اکرم؛شهادت امام حسن مجتبی علیه السلام [ ٢٨ صفر ]",
+        "description": "رحلت  رسول اکرم؛شهادت امام حسن مجتبی (ع)",
         "is_holiday": true
       },
       {
-        "description": "روز جهانی غذا [ 16 October ]",
+        "description": "روز جهانی غذا",
         "is_holiday": false
       }
     ],
@@ -1237,11 +1221,11 @@
         "is_holiday": false
       },
       {
-        "description": "شهادت امام رضا علیه السلام [ ٢٩ صفر ]",
+        "description": "شهادت امام رضا (ع)",
         "is_holiday": true
       },
       {
-        "description": "روز جهانی ریشه کنی فقر [ 17 October ]",
+        "description": "روز جهانی ریشه کنی فقر",
         "is_holiday": false
       }
     ],
@@ -1251,7 +1235,7 @@
     "date": "1399-07-27",
     "events": [
       {
-        "description": "هجرت پیامبر اکرم از مکه به مدینه [ ١ ربيع الاول ]",
+        "description": "هجرت پیامبر اکرم از مکه به مدینه",
         "is_holiday": false
       }
     ],
@@ -1291,7 +1275,7 @@
     "date": "1399-08-04",
     "events": [
       {
-        "description": "شهادت امام حسن عسکری علیه السلام [ ٨ ربيع الاول ]",
+        "description": "شهادت امام حسن عسکری (ع)",
         "is_holiday": true
       }
     ],
@@ -1311,7 +1295,7 @@
     "date": "1399-08-08",
     "events": [
       {
-        "description": "میلاد رسول اکرم به روایت اهل سنت [ ١٢ ربيع الاول ]",
+        "description": "میلاد رسول اکرم به روایت اهل سنت",
         "is_holiday": false
       }
     ],
@@ -1331,11 +1315,7 @@
     "date": "1399-08-13",
     "events": [
       {
-        "description": "روز دانش آموز",
-        "is_holiday": false
-      },
-      {
-        "description": "میلاد رسول اکرم و امام جعفر صادق علیه السلام [ ١٧ ربيع الاول ]",
+        "description": "میلاد رسول اکرم و امام جعفر صادق (ع)",
         "is_holiday": true
       }
     ],
@@ -1379,7 +1359,17 @@
         "is_holiday": false
       },
       {
-        "description": "روز جهانی دیابت [ 14 November ]",
+        "description": "روز جهانی دیابت",
+        "is_holiday": false
+      }
+    ],
+    "is_holiday": false
+  },
+  {
+    "date": "1399-08-27",
+    "events": [
+      {
+        "description": "روز جهانی دانش آموز",
         "is_holiday": false
       }
     ],
@@ -1389,7 +1379,7 @@
     "date": "1399-08-29",
     "events": [
       {
-        "description": "روز جهانی آقایان [ 19 November ]",
+        "description": "روز جهانی آقایان",
         "is_holiday": false
       }
     ],
@@ -1399,7 +1389,7 @@
     "date": "1399-08-30",
     "events": [
       {
-        "description": "روز جهانی کودک [ 20 November ]",
+        "description": "روز جهانی کودک",
         "is_holiday": false
       }
     ],
@@ -1419,7 +1409,7 @@
     "date": "1399-09-04",
     "events": [
       {
-        "description": "ولادت امام حسن عسکری علیه السلام [ ٨ ربيع الثاني ]",
+        "description": "ولادت امام حسن عسکری (ع)",
         "is_holiday": false
       }
     ],
@@ -1433,7 +1423,7 @@
         "is_holiday": false
       },
       {
-        "description": "روز جهانی مبارزه با خشونت علیه زنان [ 25 November ]",
+        "description": "روز جهانی مبارزه با خشونت علیه زنان",
         "is_holiday": false
       }
     ],
@@ -1443,7 +1433,7 @@
     "date": "1399-09-06",
     "events": [
       {
-        "description": "وفات حضرت معصومه سلام الله علیها [ ١٠ ربيع الثاني ]",
+        "description": "وفات حضرت معصومه (س)",
         "is_holiday": false
       }
     ],
@@ -1453,7 +1443,7 @@
     "date": "1399-09-07",
     "events": [
       {
-        "description": "سالروز عملیات مروارید و روز نیروی دریایی",
+        "description": "سالروز عملیات مروارید و روز نیروی دریایی ارتش",
         "is_holiday": false
       }
     ],
@@ -1473,7 +1463,7 @@
     "date": "1399-09-11",
     "events": [
       {
-        "description": "روز جهانی ایدز [ 1 December ]",
+        "description": "روز جهانی ایدز",
         "is_holiday": false
       }
     ],
@@ -1483,11 +1473,11 @@
     "date": "1399-09-13",
     "events": [
       {
-        "description": "روز بیمه",
+        "description": "روز صنعت بیمه",
         "is_holiday": false
       },
       {
-        "description": "روز جهانی معلولان [ 3 December ]",
+        "description": "روز جهانی معلولان (کم‌توانان)",
         "is_holiday": false
       }
     ],
@@ -1504,20 +1494,10 @@
     "is_holiday": false
   },
   {
-    "date": "1399-09-16",
-    "events": [
-      {
-        "description": "روز دانشجو",
-        "is_holiday": false
-      }
-    ],
-    "is_holiday": false
-  },
-  {
     "date": "1399-09-20",
     "events": [
       {
-        "description": "روز جهانی حقوق بشر [ 10 December ]",
+        "description": "روز جهانی حقوق بشر",
         "is_holiday": false
       }
     ],
@@ -1527,11 +1507,7 @@
     "date": "1399-09-21",
     "events": [
       {
-        "description": "روز جهانی کوهستان [ 11 December ]",
-        "is_holiday": false
-      },
-      {
-        "description": "سالروز نجات آذربایجان",
+        "description": "روز جهانی کوهستان",
         "is_holiday": false
       }
     ],
@@ -1541,7 +1517,7 @@
     "date": "1399-09-25",
     "events": [
       {
-        "description": "روز پژوهش و فنآوری",
+        "description": "روز پژوهش و فناوری",
         "is_holiday": false
       }
     ],
@@ -1551,7 +1527,7 @@
     "date": "1399-09-30",
     "events": [
       {
-        "description": "ولادت حضرت زینب سلام الله علیها و روز پرستار و بهورز [ ٥ جمادي الاولي ]",
+        "description": "ولادت حضرت زینب (س) و روز پرستار و بهورز",
         "is_holiday": false
       },
       {
@@ -1572,6 +1548,16 @@
     "is_holiday": false
   },
   {
+    "date": "1399-10-03",
+    "events": [
+      {
+        "description": "سالروز عملیات کربلای 4 [1365 خورشیدی]",
+        "is_holiday": false
+      }
+    ],
+    "is_holiday": false
+  },
+  {
     "date": "1399-10-05",
     "events": [
       {
@@ -1579,7 +1565,7 @@
         "is_holiday": false
       },
       {
-        "description": "جشن کریسمس [ 25 December ]",
+        "description": "جشن کریسمس",
         "is_holiday": false
       },
       {
@@ -1587,11 +1573,7 @@
         "is_holiday": false
       },
       {
-        "description": "روز بزرگداشت دوستی [ 25 December ]",
-        "is_holiday": false
-      },
-      {
-        "description": "سالروز عملیات کربلای 4 [1365 خورشیدی]",
+        "description": "روز بزرگداشت دوستی",
         "is_holiday": false
       }
     ],
@@ -1625,7 +1607,11 @@
     "date": "1399-10-12",
     "events": [
       {
-        "description": "جشن آغاز سال نو میلادی [ 1 January ]",
+        "description": "جشن آغاز سال نو میلادی",
+        "is_holiday": false
+      },
+      {
+        "description": "روز حافظ",
         "is_holiday": false
       }
     ],
@@ -1705,7 +1691,7 @@
     "date": "1399-10-28",
     "events": [
       {
-        "description": "شهادت حضرت فاطمه زهرا سلام الله علیها [ ٣ جمادي الثانيه ]",
+        "description": "شهادت حضرت فاطمه زهرا (س)",
         "is_holiday": true
       }
     ],
@@ -1736,16 +1722,6 @@
     "events": [
       {
         "description": "بهمن روز، جشن بهمنگان",
-        "is_holiday": false
-      }
-    ],
-    "is_holiday": false
-  },
-  {
-    "date": "1399-11-05",
-    "events": [
-      {
-        "description": "جشن نوسره",
         "is_holiday": false
       }
     ],
@@ -1789,7 +1765,7 @@
         "is_holiday": false
       },
       {
-        "description": "ولادت حضرت فاطمه زهرا سلام الله علیها و روز مادر [ ٢٠ جمادي الثانيه ]",
+        "description": "ولادت حضرت فاطمه زهرا (س) و روز مادر",
         "is_holiday": false
       }
     ],
@@ -1819,7 +1795,7 @@
     "date": "1399-11-23",
     "events": [
       {
-        "description": "حمله به سفارت روسیه و قتل گریبایدوف سفیر روسیه تزاری در ایران [ 11 February ]",
+        "description": "حمله به سفارت روسیه و قتل گریبایدوف سفیر روسیه تزاری در ایران",
         "is_holiday": false
       }
     ],
@@ -1829,7 +1805,7 @@
     "date": "1399-11-25",
     "events": [
       {
-        "description": "ولادت امام محمد باقر علیه السلام [ ١ رجب ]",
+        "description": "ولادت  امام محمد باقر (ع)",
         "is_holiday": false
       }
     ],
@@ -1839,7 +1815,7 @@
     "date": "1399-11-26",
     "events": [
       {
-        "description": "جشن ولنتاین [ 14 February ]",
+        "description": "جشن ولنتاین",
         "is_holiday": false
       }
     ],
@@ -1849,7 +1825,7 @@
     "date": "1399-11-27",
     "events": [
       {
-        "description": "شهادت امام علی النقی الهادی علیه السلام [ ٣ رجب ]",
+        "description": "شهادت امام علی النقی (ع)",
         "is_holiday": false
       }
     ],
@@ -1873,7 +1849,7 @@
     "date": "1399-12-04",
     "events": [
       {
-        "description": "ولادت امام محمد تقی علیه السلام [ ١٠ رجب ]",
+        "description": "ولادت امام محمد تقی (ع)",
         "is_holiday": false
       }
     ],
@@ -1882,10 +1858,6 @@
   {
     "date": "1399-12-05",
     "events": [
-      {
-        "description": "روز بزرگداشت زن و زمین",
-        "is_holiday": false
-      },
       {
         "description": "روز بزرگداشت خواجه نصیر الدین طوسی و روز مهندس",
         "is_holiday": false
@@ -1897,7 +1869,7 @@
     "date": "1399-12-07",
     "events": [
       {
-        "description": "ولادت امام علی علیه السلام و روز پدر [ ١٣ رجب ]",
+        "description": "ولادت امام علی (ع) و روز پدر",
         "is_holiday": true
       },
       {
@@ -1911,7 +1883,7 @@
     "date": "1399-12-09",
     "events": [
       {
-        "description": "وفات حضرت زینب سلام الله علیها [ ١٥ رجب ]",
+        "description": "وفات حضرت زینب (س)",
         "is_holiday": false
       }
     ],
@@ -1931,7 +1903,7 @@
     "date": "1399-12-18",
     "events": [
       {
-        "description": "روزجهانی زنان [ 8 March ]",
+        "description": "روزجهانی زنان",
         "is_holiday": false
       }
     ],
@@ -1941,7 +1913,7 @@
     "date": "1399-12-19",
     "events": [
       {
-        "description": "شهادت امام موسی کاظم علیه السلام [ ٢٥ رجب ]",
+        "description": "شهادت امام موسی کاظم (ع)",
         "is_holiday": false
       }
     ],
@@ -1951,7 +1923,7 @@
     "date": "1399-12-21",
     "events": [
       {
-        "description": "مبعث رسول اکرم (ص) [ ٢٧ رجب ]",
+        "description": "مبعث رسول اکرم (ص)",
         "is_holiday": true
       }
     ],
@@ -1961,7 +1933,7 @@
     "date": "1399-12-24",
     "events": [
       {
-        "description": "روز جهانی عدد پی π [ 14 March ]",
+        "description": "روز جهانی عدد پی  π",
         "is_holiday": false
       }
     ],
@@ -1985,7 +1957,7 @@
     "date": "1399-12-27",
     "events": [
       {
-        "description": "ولادت سالار شهیدان، امام حسین علیه السلام و روز پاسدار [ ٣ شعبان ]",
+        "description": "ولادت سالار شهیدان، امام حسین (ع) و روز پاسدار",
         "is_holiday": false
       }
     ],
@@ -1995,7 +1967,7 @@
     "date": "1399-12-28",
     "events": [
       {
-        "description": "ولادت ابوالفضل العباس علیه السلام و روز جانباز [ ٤ شعبان ]",
+        "description": "ولادت حضرت ابوالفضل العباس (ع) و روز جانباز",
         "is_holiday": false
       }
     ],
@@ -2009,7 +1981,7 @@
         "is_holiday": true
       },
       {
-        "description": "ولادت امام زین العابدین علیه السلام [ ٥ شعبان ]",
+        "description": "ولادت امام زین العابدین (ع)",
         "is_holiday": false
       }
     ],
@@ -2023,7 +1995,7 @@
         "is_holiday": true
       },
       {
-        "description": "روز جهانی شادی [ 20 March ]",
+        "description": "روز جهانی شادی",
         "is_holiday": false
       }
     ],

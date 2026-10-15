@@ -2,25 +2,26 @@ import {mkdirSync,readFileSync,writeFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {calendarWindow} from './window.mjs';
 import {escapeText,fold,iso} from './generate.mjs';
-import {fetchYear,validateYear,persianKey as key} from './source-data.mjs';
-const root='https://raw.githubusercontent.com/hasan-ahani/shamsi-holidays/main/holidays/';
+import {validateYear,persianKey as key} from './source-data.mjs';
+import {createTimeIrClient,TIME_IR_URL} from './time-ir.mjs';
+const fetchTimeYear=createTimeIrClient();
 const today=new Date(); const year=Number(key(today).slice(0,4));
 mkdirSync('data/occasions',{recursive:true});
 const revisions=existsSync('data/occasions/revisions.json')?JSON.parse(readFileSync('data/occasions/revisions.json','utf8')):{};
 const sources=[]; const unavailable=[]; const all=new Map();
 const previousSources=existsSync('feeds/occasions-status.json')?JSON.parse(readFileSync('feeds/occasions-status.json','utf8')).sources:[];
 for(let y=year-10;y<=year+10;y++) {
- const path=`data/occasions/${y}.json`; const url=root+y+'.json'; let rows; let mode='fresh'; let errorMessage;
- let lastSuccess=previousSources.find(source=>source.year===y)?.lastSuccess??null;
+ const path=`data/occasions/${y}.json`; const url=TIME_IR_URL; let rows; let mode='fresh'; let errorMessage;
+ let lastSuccess=previousSources.find(source=>source.year===y&&source.url===url)?.lastSuccess??null;
  try {
-  rows=await fetchYear(url,y);
+  rows=await fetchTimeYear(y);
   lastSuccess=new Date().toISOString();
   writeFileSync(path,JSON.stringify(rows,null,2)+'\n');
  } catch(e) {
   if(existsSync(path)) {rows=validateYear(JSON.parse(readFileSync(path,'utf8')),y); mode='cached'; errorMessage=e.message; console.warn(`Using cached ${y}: ${e.message}`);}
   else {unavailable.push({year:y,error:e.message}); console.warn(`Unavailable ${y}: ${e.message}`); if(y===year) throw e; continue;}
  }
- sources.push({year:y,url,mode,lastSuccess,...(errorMessage?{error:errorMessage}:{})}); for(const row of rows) all.set(row.date,row.events);
+ sources.push({year:y,url,mode,lastSuccess,...(errorMessage?{error:errorMessage,cachedOrigin:previousSources.find(source=>source.year===y)?.cachedOrigin??previousSources.find(source=>source.year===y)?.url??'legacy-cache'}:{})}); for(const row of rows) all.set(row.date,row.events);
 }
 const fa=s=>s.replace(/[0-9٠-٩]/g,c=>'۰۱۲۳۴۵۶۷۸۹'['٠١٢٣٤٥٦٧٨٩'.includes(c)?'٠١٢٣٤٥٦٧٨٩'.indexOf(c):Number(c)]);
 const clean=s=>fa(s.replace(/\s*\[[^\]]*\]/g,'').replace(/[\r\n]+/g,' ').trim());
@@ -35,7 +36,7 @@ for(let d=start;d<end;d=new Date(+d+86400000)) {
   const estimate=Number(date.slice(0,4))>year;
   const titles=[...new Set(list.map(e=>clean(e.description)))];
   const summary=(estimate?'پیش‌بینی: ':'')+(list.some(e=>e.is_holiday)?'تعطیل: ':'')+titles.join('؛ ');
-  const description='تاریخ شمسی: '+fa(date)+'\n'+titles.join('\n')+'\nمنبع: داده‌های تایم، از مخزن عمومی حسن آهنی'+(estimate?'\nتاریخ‌های آینده برآورد منبع هستند و ممکن است تغییر کنند.':'')+'\nتعطیلی‌های اضطراری و استانی تضمین نشده‌اند.';
+  const description='تاریخ شمسی: '+fa(date)+'\n'+titles.join('\n')+'\nمنبع: دریافت مستقیم از تایم (Time.ir)'+(estimate?'\nتاریخ‌های آینده برآورد منبع هستند و ممکن است تغییر کنند.':'')+'\nتعطیلی‌های اضطراری و استانی تضمین نشده‌اند.';
   const hash=createHash('sha256').update(summary+description).digest('hex');
   // Content revisions are persisted below, so unchanged events keep their revision.
   const id=kind+'-'+iso(d); const previous=revisions[id];
