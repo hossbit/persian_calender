@@ -1,11 +1,19 @@
 ![تقویم شمسی جلالی، تعطیلات و مناسبت‌های فارسی برای لینوکس، مک، ویندوز، اندروید و آیفون](assets/persian-calendar-platforms.webp)
 
 <p align="center">
-  <a href="https://github.com/hossbit/persian_calender/actions/workflows/update.yml"><img src="https://github.com/hossbit/persian_calender/actions/workflows/update.yml/badge.svg" alt="وضعیت به‌روزرسانی خودکار تقویم"></a>
-  <a href="#subscriptions"><img src="https://img.shields.io/badge/Format-ICS-0f8b8d" alt="فرمت اشتراک ICS"></a>
-  <a href="PLATFORMS.md"><img src="https://img.shields.io/badge/Platforms-Linux%20%7C%20macOS%20%7C%20Windows%20%7C%20Android%20%7C%20iOS-2563eb" alt="راهنمای استفاده در لینوکس، مک، ویندوز، اندروید و آیفون"></a>
-  <a href="TECHNICAL.md"><img src="https://img.shields.io/badge/Dates-%C2%B110_years-2563eb" alt="تاریخ روزانه از ده سال گذشته تا ده سال آینده"></a>
-  <a href="#subscriptions"><img src="https://img.shields.io/badge/Subscriptions-16-0f8b8d" alt="شانزده حالت اشتراک"></a>
+  <a href="PLATFORMS.md"><img src="https://img.shields.io/badge/-iOS-0F172A?style=for-the-badge&amp;labelColor=0F172A&amp;logo=apple&amp;logoColor=white" alt="راهنمای استفاده در iOS"></a>
+  <a href="PLATFORMS.md"><img src="https://img.shields.io/badge/-macOS-0F172A?style=for-the-badge&amp;labelColor=0F172A&amp;logo=apple&amp;logoColor=white" alt="راهنمای استفاده در macOS"></a>
+  <a href="PLATFORMS.md"><img src="https://img.shields.io/badge/-Linux-0F172A?style=for-the-badge&amp;labelColor=0F172A&amp;logo=linux&amp;logoColor=white" alt="راهنمای استفاده در Linux"></a>
+  <a href="PLATFORMS.md"><img src="https://img.shields.io/badge/-Windows-0F172A?style=for-the-badge&amp;labelColor=0F172A" alt="راهنمای استفاده در Windows"></a>
+  <a href="PLATFORMS.md"><img src="https://img.shields.io/badge/-Android-0F172A?style=for-the-badge&amp;labelColor=0F172A&amp;logo=android&amp;logoColor=white" alt="راهنمای استفاده در Android"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/hossbit/persian_calender/actions/workflows/update.yml"><img src="https://img.shields.io/github/actions/workflow/status/hossbit/persian_calender/update.yml?branch=main&amp;style=for-the-badge&amp;label=Daily%20Update&amp;labelColor=0F172A&amp;logo=githubactions&amp;logoColor=white" alt="وضعیت به‌روزرسانی روزانه"></a>
+  <a href="#subscriptions"><img src="https://img.shields.io/badge/FORMAT-ICS-0D9488?style=for-the-badge&amp;labelColor=0F172A" alt="فرمت استاندارد ICS"></a>
+  <a href="#subscriptions"><img src="https://img.shields.io/badge/FEEDS-16-0284C7?style=for-the-badge&amp;labelColor=0F172A" alt="شانزده حالت اشتراک"></a>
+  <a href="TECHNICAL.md"><img src="https://img.shields.io/badge/DATES-%C2%B110%20YEARS-7C3AED?style=for-the-badge&amp;labelColor=0F172A" alt="ده سال گذشته و ده سال آینده"></a>
+  <a href="https://www.time.ir/event-year"><img src="https://img.shields.io/badge/SOURCE-Time.ir-0D9488?style=for-the-badge&amp;labelColor=0F172A" alt="دریافت مستقیم از تایم"></a>
 </p>
 
 # تقویم شمسی چندسکویی | Persian Calendar (ICS)
