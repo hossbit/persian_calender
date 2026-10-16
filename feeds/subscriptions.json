@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "format": "iCalendar",
+  "encoding": "UTF-8",
+  "readOnly": true,
+  "publisherRefreshInterval": "P1D",
+  "calendars": [
+    {
+      "id": "combined-current",
+      "name": "تاریخ شمسی و مناسبت‌ها بدون پیش‌بینی سال‌های آینده",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined-current.ics"
+    },
+    {
+      "id": "combined",
+      "name": "تاریخ شمسی، تعطیلات و مناسبت‌ها",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/combined.ics"
+    },
+    {
+      "id": "dates-holidays",
+      "name": "تاریخ شمسی و فقط تعطیلات",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/dates-holidays.ics"
+    },
+    {
+      "id": "fridays",
+      "name": "جمعه‌های تقویم",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/fridays.ics"
+    },
+    {
+      "id": "holidays-current",
+      "name": "تعطیلات؛ بدون پیش‌بینی سال‌های آینده",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-current.ics"
+    },
+    {
+      "id": "holidays-with-fridays",
+      "name": "تعطیلات و جمعه‌ها",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays-with-fridays.ics"
+    },
+    {
+      "id": "holidays",
+      "name": "تعطیلات ایران",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/holidays.ics"
+    },
+    {
+      "id": "non-holidays-current",
+      "name": "مناسبت‌های غیرتعطیل؛ بدون پیش‌بینی سال‌های آینده",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays-current.ics"
+    },
+    {
+      "id": "non-holidays",
+      "name": "مناسبت‌های غیرتعطیل",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/non-holidays.ics"
+    },
+    {
+      "id": "occasions-current",
+      "name": "تعطیلات و مناسبت‌ها؛ بدون پیش‌بینی سال‌های آینده",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions-current.ics"
+    },
+    {
+      "id": "occasions",
+      "name": "تعطیلات و مناسبت‌های ایران",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/occasions.ics"
+    },
+    {
+      "id": "persian-full",
+      "name": "تاریخ شمسی کامل",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-full.ics"
+    },
+    {
+      "id": "persian-numeric-short",
+      "name": "تاریخ عددی بدون سال",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric-short.ics"
+    },
+    {
+      "id": "persian-numeric",
+      "name": "تاریخ شمسی عددی",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-numeric.ics"
+    },
+    {
+      "id": "persian-weekday",
+      "name": "روز هفته و تاریخ کوتاه",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian-weekday.ics"
+    },
+    {
+      "id": "persian",
+      "name": "تقویم شمسی روزانه",
+      "url": "https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/persian.ics"
+    }
+  ]
+}

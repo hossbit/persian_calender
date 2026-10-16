@@ -3,22 +3,37 @@
 <p align="center">
   <a href="https://github.com/hossbit/persian_calender/actions/workflows/update.yml"><img src="https://github.com/hossbit/persian_calender/actions/workflows/update.yml/badge.svg" alt="وضعیت به‌روزرسانی خودکار تقویم"></a>
   <a href="#subscriptions"><img src="https://img.shields.io/badge/Format-ICS-0f8b8d" alt="فرمت اشتراک ICS"></a>
-  <a href="https://support.apple.com/102301"><img src="https://img.shields.io/badge/Apple-Calendar-555555?logo=apple" alt="سازگار با Apple Calendar"></a>
+  <a href="PLATFORMS.md"><img src="https://img.shields.io/badge/Platforms-Linux%20%7C%20macOS%20%7C%20Windows%20%7C%20Android%20%7C%20iOS-2563eb" alt="راهنمای استفاده در لینوکس، مک، ویندوز، اندروید و آیفون"></a>
   <a href="TECHNICAL.md"><img src="https://img.shields.io/badge/Dates-%C2%B110_years-2563eb" alt="تاریخ روزانه از ده سال گذشته تا ده سال آینده"></a>
   <a href="#subscriptions"><img src="https://img.shields.io/badge/Subscriptions-16-0f8b8d" alt="شانزده حالت اشتراک"></a>
 </p>
 
-# تقویم شمسی آیفون | Persian Calendar for iOS
+# تقویم شمسی چندسکویی | Persian Calendar (ICS)
 
-اضافه‌کردن تقویم شمسی (جلالی)، تعطیلات ایران و مناسبت‌های فارسی به Apple Calendar آیفون، با لینک اشتراک ICS ثابت و به‌روزرسانی خودکار روزانه.
+تقویم شمسی (جلالی)، تعطیلات ایران و مناسبت‌های فارسی برای iOS، macOS، Linux، Windows و Android؛ با لینک اشتراک ICS ثابت و به‌روزرسانی خودکار روزانه.
 
-Persian / Jalali / Shamsi calendar subscriptions for iPhone and Apple Calendar, with Persian dates, Iranian holidays and daily GitHub Actions updates.
+Persian / Jalali / Shamsi ICS subscriptions for Apple Calendar, Thunderbird, Evolution, Google Calendar and Outlook on Linux, macOS, Windows, Android and iOS.
 
-[English guide](README.en.md) · [انتخاب لینک اشتراک](#subscriptions)
+[راهنمای همهٔ سیستم‌عامل‌ها](PLATFORMS.md) · [English guide](README.en.md) · [انتخاب لینک اشتراک](#subscriptions)
 
 تاریخ روزانه و جمعه‌ها: **۱۰ سال گذشته تا ۱۰ سال آینده**؛ بازه هر روز جلو می‌رود. مناسبت‌ها و تعطیلات مستقیماً از Time.ir دریافت می‌شوند و پوشش آن‌ها به دادهٔ موجود سایت وابسته است.
 
-## شروع سریع
+## استفاده در سیستم‌عامل‌های مختلف
+
+همهٔ حالت‌ها از همان لینک HTTPS استفاده می‌کنند؛ روش افزودن اشتراک به برنامه بستگی دارد.
+
+| دستگاه | برنامه | روش افزودن |
+|---|---|---|
+| آیفون / آیپد | Apple Calendar | دو مسیر زیر |
+| مک | Apple Calendar | File → New Calendar Subscription |
+| لینوکس / ویندوز / مک | Thunderbird | New Calendar → On the Network |
+| لینوکس | Evolution | New Calendar → On the Web |
+| ویندوز / مرورگر | Outlook | Add calendar → Subscribe from web |
+| اندروید / مرورگر | Google Calendar | افزودن در نسخهٔ وب از From URL؛ سپس نمایش در گوشی |
+
+[مراحل کامل نصب و همگام‌سازی برای هر سیستم‌عامل](PLATFORMS.md)
+
+## شروع سریع در آیفون و آیپد
 
 ۱. از جدول، حالت دلخواه را انتخاب و **آدرس لینک اشتراک را کپی کن**.
 

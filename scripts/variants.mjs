@@ -1,4 +1,4 @@
-import {readFileSync,writeFileSync} from 'node:fs';
+import {readFileSync,writeFileSync,readdirSync} from 'node:fs';
 import {fold,fullDateLabel} from './generate.mjs';
 const parse=name=>{const lines=readFileSync(`feeds/${name}.ics`,'utf8').replaceAll('\r\n ','').split('\r\n');const events=[];let current;
  for(const line of lines){if(line==='BEGIN:VEVENT')current=[];if(current)current.push(line);if(line==='END:VEVENT'){events.push(current);current=undefined;}}
@@ -29,3 +29,10 @@ write('holidays-with-fridays','تعطیلات و جمعه‌ها',[...holidayEve
 write('dates-holidays','تاریخ شمسی و فقط تعطیلات',[...dates,...holidayEvents]);
 write('combined-current','تاریخ شمسی و مناسبت‌ها بدون پیش‌بینی سال‌های آینده',[...dates,...parse('occasions-current')]);
 console.log('Calendar variants generated.');
+
+// A client-neutral catalogue: the same HTTPS URLs are used on every platform.
+const calendars = readdirSync('feeds').filter(file => file.endsWith('.ics')).sort().map(file => {
+ const text=readFileSync(`feeds/${file}`,'utf8').replaceAll('\r\n ','');
+ return {id:file.slice(0,-4),name:text.match(/^X-WR-CALNAME:(.+)$/m)[1].trim(),url:`https://raw.githubusercontent.com/hossbit/persian_calender/main/feeds/${file}`};
+});
+writeFileSync('feeds/subscriptions.json',JSON.stringify({schemaVersion:1,format:'iCalendar',encoding:'UTF-8',readOnly:true,publisherRefreshInterval:'P1D',calendars},null,2)+'\n');

@@ -1,8 +1,21 @@
-# Persian Calendar for iPhone and Apple Calendar
+# Cross-platform Persian Calendar (ICS)
 
 [راهنمای فارسی](README.md) · [All subscription options with previews](README.md#subscriptions)
 
-Add Persian (Jalali / Shamsi / Solar Hijri) dates, Iranian holidays and Persian calendar events to the iOS Calendar app using public ICS calendar subscriptions. No account or app installation is required for the feeds.
+Add Persian (Jalali / Shamsi / Solar Hijri) dates, Iranian holidays and Persian calendar events to Apple Calendar, Thunderbird, Evolution, Google Calendar and Outlook using public ICS calendar subscriptions on Linux, macOS, Windows, Android and iOS. No account or app installation is required for the feeds.
+
+## Other platforms
+
+The same HTTPS feed URLs work with calendar applications that support remote ICS subscriptions:
+
+- **macOS / Apple Calendar:** File → New Calendar Subscription.
+- **Linux, Windows, macOS / Thunderbird:** New Calendar → On the Network.
+- **Linux / Evolution:** New Calendar → On the Web.
+- **Outlook on the web:** Add calendar → Subscribe from web.
+- **Google Calendar / Android:** add the URL in a desktop browser using Other calendars → + → From URL, then enable the calendar in the Android app with the same account. The mobile Google Calendar app cannot add a URL subscription directly.
+- **Android without Google:** an ICS subscription app such as ICSx⁵ can expose the feed to Android calendar apps.
+
+See the [platform guide and official sources](PLATFORMS.md). Subscribe by URL for ongoing updates; file imports are snapshots. Support depends on the calendar application and its refresh/file-size limits, not just the operating system. The iPhone illustrations are examples of one client's appearance.
 
 ## Subscribe on iPhone
 
