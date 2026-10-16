@@ -1,4 +1,4 @@
-![تقویم شمسی برای آیفون](assets/persian-calendar.webp)
+![تقویم شمسی جلالی، تعطیلات و مناسبت‌های فارسی برای لینوکس، مک، ویندوز، اندروید و آیفون](assets/persian-calendar-platforms.webp)
 
 <p align="center">
   <a href="https://github.com/hossbit/persian_calender/actions/workflows/update.yml"><img src="https://github.com/hossbit/persian_calender/actions/workflows/update.yml/badge.svg" alt="وضعیت به‌روزرسانی خودکار تقویم"></a>
