@@ -28,7 +28,7 @@ jobs:
       - name: بررسی اعتبارسنجی منبع و مدیریت خطا
         run: |
           node scripts/test-source.mjs
-          node scripts/test-time-ir.mjs
+          node scripts/test-collector.mjs
       - name: تولید تاریخ‌های فارسی
         run: node scripts/generate.mjs
       - name: دریافت خودکار تعطیلات و مناسبت‌ها

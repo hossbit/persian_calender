@@ -13,7 +13,6 @@
   <a href="#subscriptions"><img src="https://img.shields.io/badge/FORMAT-ICS-0D9488?style=for-the-badge&amp;labelColor=0F172A" alt="فرمت استاندارد ICS"></a>
   <a href="#subscriptions"><img src="https://img.shields.io/badge/FEEDS-16-0284C7?style=for-the-badge&amp;labelColor=0F172A" alt="شانزده حالت اشتراک"></a>
   <a href="TECHNICAL.md"><img src="https://img.shields.io/badge/DATES-%C2%B110%20YEARS-7C3AED?style=for-the-badge&amp;labelColor=0F172A" alt="ده سال گذشته و ده سال آینده"></a>
-  <a href="https://www.time.ir/event-year"><img src="https://img.shields.io/badge/SOURCE-Time.ir-0D9488?style=for-the-badge&amp;labelColor=0F172A" alt="دریافت مستقیم از تایم"></a>
 </p>
 
 # تقویم شمسی چندسکویی | Persian Calendar (ICS)
@@ -24,7 +23,7 @@ Persian / Jalali / Shamsi ICS subscriptions for Apple Calendar, Thunderbird, Evo
 
 [راهنمای همهٔ سیستم‌عامل‌ها](PLATFORMS.md) · [English guide](README.en.md) · [انتخاب لینک اشتراک](#subscriptions)
 
-تاریخ روزانه و جمعه‌ها: **۱۰ سال گذشته تا ۱۰ سال آینده**؛ بازه هر روز جلو می‌رود. مناسبت‌ها و تعطیلات مستقیماً از Time.ir دریافت می‌شوند و پوشش آن‌ها به دادهٔ موجود سایت وابسته است.
+تاریخ روزانه و جمعه‌ها: **۱۰ سال گذشته تا ۱۰ سال آینده**؛ بازه هر روز جلو می‌رود. مناسبت‌ها و تعطیلات خودکار دریافت می‌شوند و پوشش آن‌ها به دادهٔ موجود وابسته است.
 
 ## استفاده در سیستم‌عامل‌های مختلف
 

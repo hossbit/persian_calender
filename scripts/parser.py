@@ -1,4 +1,4 @@
-"""Read public Time.ir yearly HTML using Python's standard-library HTML parser."""
+"""Read public yearly calendar HTML using Python's standard-library HTML parser."""
 import json
 import re
 import sys

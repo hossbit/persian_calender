@@ -3,25 +3,25 @@ import {createHash} from 'node:crypto';
 import {calendarWindow} from './window.mjs';
 import {escapeText,fold,iso} from './generate.mjs';
 import {validateYear,persianKey as key} from './source-data.mjs';
-import {createTimeIrClient,TIME_IR_URL} from './time-ir.mjs';
-const fetchTimeYear=createTimeIrClient();
+import {createSourceClient} from './collector.mjs';
+const fetchSourceYear=createSourceClient();
 const today=new Date(); const year=Number(key(today).slice(0,4));
 mkdirSync('data/occasions',{recursive:true});
 const revisions=existsSync('data/occasions/revisions.json')?JSON.parse(readFileSync('data/occasions/revisions.json','utf8')):{};
 const sources=[]; const unavailable=[]; const all=new Map();
 const previousSources=existsSync('feeds/occasions-status.json')?JSON.parse(readFileSync('feeds/occasions-status.json','utf8')).sources:[];
 for(let y=year-10;y<=year+10;y++) {
- const path=`data/occasions/${y}.json`; const url=TIME_IR_URL; let rows; let mode='fresh'; let errorMessage;
- let lastSuccess=previousSources.find(source=>source.year===y&&source.url===url)?.lastSuccess??null;
+ const path=`data/occasions/${y}.json`; let rows; let mode='fresh'; let errorMessage;
+ let lastSuccess=previousSources.find(source=>source.year===y)?.lastSuccess??null;
  try {
-  rows=await fetchTimeYear(y);
+  rows=await fetchSourceYear(y);
   lastSuccess=new Date().toISOString();
   writeFileSync(path,JSON.stringify(rows,null,2)+'\n');
  } catch(e) {
   if(existsSync(path)) {rows=validateYear(JSON.parse(readFileSync(path,'utf8')),y); mode='cached'; errorMessage=e.message; console.warn(`Using cached ${y}: ${e.message}`);}
   else {unavailable.push({year:y,error:e.message}); console.warn(`Unavailable ${y}: ${e.message}`); if(y===year) throw e; continue;}
  }
- sources.push({year:y,url,mode,lastSuccess,...(errorMessage?{error:errorMessage,cachedOrigin:previousSources.find(source=>source.year===y)?.cachedOrigin??previousSources.find(source=>source.year===y)?.url??'legacy-cache'}:{})}); for(const row of rows) all.set(row.date,row.events);
+ sources.push({year:y,mode,lastSuccess,...(errorMessage?{error:errorMessage}:{})}); for(const row of rows) all.set(row.date,row.events);
 }
 const fa=s=>s.replace(/[0-9٠-٩]/g,c=>'۰۱۲۳۴۵۶۷۸۹'['٠١٢٣٤٥٦٧٨٩'.includes(c)?'٠١٢٣٤٥٦٧٨٩'.indexOf(c):Number(c)]);
 const clean=s=>fa(s.replace(/\s*\[[^\]]*\]/g,'').replace(/[\r\n]+/g,' ').trim());
