@@ -37838,5 +37838,15 @@
     "hash": "1e4f1c6abfa89f4a94767b7f392f9467524da9732d6b1b4bddf949bdaaaf8d53",
     "sequence": 0,
     "stamp": "20261020T084434Z"
+  },
+  "occasions-20361022": {
+    "hash": "661189a856bde43d322c9d1c23118a3f78278c39db3b564f23d3cbe1f98f7d36",
+    "sequence": 0,
+    "stamp": "20261022T084745Z"
+  },
+  "non-holidays-20361022": {
+    "hash": "661189a856bde43d322c9d1c23118a3f78278c39db3b564f23d3cbe1f98f7d36",
+    "sequence": 0,
+    "stamp": "20261022T084745Z"
   }
 }
