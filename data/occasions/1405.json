@@ -1302,6 +1302,16 @@
     "is_holiday": false
   },
   {
+    "date": "1405-08-13",
+    "events": [
+      {
+        "description": "روز دانش آموز",
+        "is_holiday": false
+      }
+    ],
+    "is_holiday": false
+  },
+  {
     "date": "1405-08-14",
     "events": [
       {
@@ -1356,16 +1366,6 @@
     "events": [
       {
         "description": "روز کتاب و کتابخوانی",
-        "is_holiday": false
-      }
-    ],
-    "is_holiday": false
-  },
-  {
-    "date": "1405-08-26",
-    "events": [
-      {
-        "description": "روز جهانی دانش آموز",
         "is_holiday": false
       }
     ],

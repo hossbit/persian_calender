@@ -1080,9 +1080,9 @@
     "stamp": "20261015T170603Z"
   },
   "occasions-20261104": {
-    "hash": "57a63468ff76ec338ef3179b139c0146ab7654a92816dff2741363f9bf2ce2fd",
-    "sequence": 0,
-    "stamp": "20261015T062610Z"
+    "hash": "98093d6dcbc3377243a1c266052f07fdbbe2d12555e5a9214768f75454330c4f",
+    "sequence": 1,
+    "stamp": "20261031T095041Z"
   },
   "occasions-20261105": {
     "hash": "94c9e378f11ff4d3b89724ff69a4d337d2ebb0f6a070004fd757e0490cd6763b",
@@ -3405,9 +3405,9 @@
     "stamp": "20261015T170603Z"
   },
   "non-holidays-20261104": {
-    "hash": "57a63468ff76ec338ef3179b139c0146ab7654a92816dff2741363f9bf2ce2fd",
-    "sequence": 0,
-    "stamp": "20261015T062839Z"
+    "hash": "98093d6dcbc3377243a1c266052f07fdbbe2d12555e5a9214768f75454330c4f",
+    "sequence": 1,
+    "stamp": "20261031T095041Z"
   },
   "non-holidays-20261105": {
     "hash": "94c9e378f11ff4d3b89724ff69a4d337d2ebb0f6a070004fd757e0490cd6763b",
@@ -17100,9 +17100,9 @@
     "stamp": "20261015T170603Z"
   },
   "occasions-20171117": {
-    "hash": "548f9b2723d2d652d1ebd1095af8ff4079d1a793c7a959ea727eb8c38c43a81d",
-    "sequence": 1,
-    "stamp": "20261015T170603Z"
+    "hash": "8b160cb96490496673d58d1b3e12515c8dd3f5f628e8d71cbf596ee5e765277c",
+    "sequence": 2,
+    "stamp": "20261031T095040Z"
   },
   "holidays-20171117": {
     "hash": "8b160cb96490496673d58d1b3e12515c8dd3f5f628e8d71cbf596ee5e765277c",
@@ -24915,14 +24915,14 @@
     "stamp": "20261015T170603Z"
   },
   "occasions-20291117": {
-    "hash": "b6c1c967ec87d644b7b0273a1bfb5abec2f71aa17bb5acdf35a56e219734d49d",
-    "sequence": 1,
-    "stamp": "20261015T170603Z"
+    "hash": "33a523bf50e74acd83ccd1d1ae31593624d7b678be3d94b8e5471545b194ddf5",
+    "sequence": 2,
+    "stamp": "20261031T095041Z"
   },
   "non-holidays-20291117": {
-    "hash": "b6c1c967ec87d644b7b0273a1bfb5abec2f71aa17bb5acdf35a56e219734d49d",
-    "sequence": 1,
-    "stamp": "20261015T170603Z"
+    "hash": "33a523bf50e74acd83ccd1d1ae31593624d7b678be3d94b8e5471545b194ddf5",
+    "sequence": 2,
+    "stamp": "20261031T095041Z"
   },
   "occasions-20291119": {
     "hash": "b99b33df53463b5eb667c741b84d5297deb348739033e9552dc98f5b6511ef5f",
@@ -37868,5 +37868,15 @@
     "hash": "c022d0cdf131416f63a9da87017c6b6d4af2eb9902b10e7f4a070e4a06721bc0",
     "sequence": 0,
     "stamp": "20261029T101506Z"
+  },
+  "occasions-20361031": {
+    "hash": "410e85c047a2b35dfe89bd9d431cd615003011cd1553527b95cba55b73aad7c7",
+    "sequence": 0,
+    "stamp": "20261031T095041Z"
+  },
+  "non-holidays-20361031": {
+    "hash": "410e85c047a2b35dfe89bd9d431cd615003011cd1553527b95cba55b73aad7c7",
+    "sequence": 0,
+    "stamp": "20261031T095041Z"
   }
 }
