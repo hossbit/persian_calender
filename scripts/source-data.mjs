@@ -52,3 +52,16 @@ export async function fetchYear(url, year, { fetcher = fetch, timeoutMs = 8000, 
     }
   }
 }
+
+// A broken cache must not take down unrelated years when the source is offline.
+export async function loadYear(year, fetchSource, readCache) {
+  try {
+    return {rows: validateYear(await fetchSource(year), year), mode: 'fresh'};
+  } catch (sourceError) {
+    try {
+      return {rows: validateYear(JSON.parse(readCache(year)), year), mode: 'cached', error: sourceError.message};
+    } catch (cacheError) {
+      throw new Error(`Source: ${sourceError.message}; cache: ${cacheError.message}`);
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {validateYear,fetchYear} from './source-data.mjs';
+import {validateYear,fetchYear,loadYear} from './source-data.mjs';
 import {calendarWindow} from './window.mjs';
 const good=JSON.parse(readFileSync('data/occasions/1405.json','utf8'));
 assert.equal(validateYear(good,1405),good);
@@ -29,4 +29,14 @@ const leap=calendarWindow(new Date('2024-02-29T23:59:59Z'));
 assert.equal(leap.start.toISOString(),'2014-02-28T00:00:00.000Z');
 assert.equal(leap.end.toISOString(),'2034-03-01T00:00:00.000Z');
 assert.throws(()=>calendarWindow(new Date('invalid')),/Invalid/);
-console.log('Source validation, retry policy and leap-day windows passed.');
+
+const offline=async()=>{throw Error('offline');};
+const cached=await loadYear(1405,offline,()=>JSON.stringify(good));
+assert.equal(cached.mode,'cached');
+assert.equal(cached.error,'offline');
+assert.equal(cached.rows.length,good.length);
+await assert.rejects(loadYear(1405,offline,()=>'{broken'),/Source: offline; cache:/);
+await assert.rejects(loadYear(1405,offline,()=>JSON.stringify(good.slice(0,10))),/Source: offline; cache: Incomplete/);
+const fresh=await loadYear(1405,async()=>good,()=>{throw Error('must not read');});
+assert.equal(fresh.mode,'fresh');
+console.log('Source validation, cache recovery, retry policy and leap-day windows passed.');

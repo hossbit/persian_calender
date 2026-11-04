@@ -2,7 +2,7 @@ import {mkdirSync,readFileSync,writeFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {calendarWindow} from './window.mjs';
 import {escapeText,fold,iso} from './generate.mjs';
-import {validateYear,persianKey as key} from './source-data.mjs';
+import {loadYear,persianKey as key} from './source-data.mjs';
 import {createSourceClient} from './collector.mjs';
 const fetchSourceYear=createSourceClient();
 const today=new Date(); const year=Number(key(today).slice(0,4));
@@ -14,13 +14,17 @@ for(let y=year-10;y<=year+10;y++) {
  const path=`data/occasions/${y}.json`; let rows; let mode='fresh'; let errorMessage;
  let lastSuccess=previousSources.find(source=>source.year===y)?.lastSuccess??null;
  try {
-  rows=await fetchSourceYear(y);
+  const result=await loadYear(y,fetchSourceYear,()=>readFileSync(path,'utf8'));
+  rows=result.rows; mode=result.mode; errorMessage=result.error;
+ } catch(e) {
+  unavailable.push({year:y,error:e.message}); console.warn(`Unavailable ${y}: ${e.message}`);
+  if(y===year) throw e;
+  continue;
+ }
+ if(mode==='fresh') {
   lastSuccess=new Date().toISOString();
   writeFileSync(path,JSON.stringify(rows,null,2)+'\n');
- } catch(e) {
-  if(existsSync(path)) {rows=validateYear(JSON.parse(readFileSync(path,'utf8')),y); mode='cached'; errorMessage=e.message; console.warn(`Using cached ${y}: ${e.message}`);}
-  else {unavailable.push({year:y,error:e.message}); console.warn(`Unavailable ${y}: ${e.message}`); if(y===year) throw e; continue;}
- }
+ } else console.warn(`Using cached ${y}: ${errorMessage}`);
  sources.push({year:y,mode,lastSuccess,...(errorMessage?{error:errorMessage}:{})}); for(const row of rows) all.set(row.date,row.events);
 }
 const fa=s=>s.replace(/[0-9٠-٩]/g,c=>'۰۱۲۳۴۵۶۷۸۹'['٠١٢٣٤٥٦٧٨٩'.includes(c)?'٠١٢٣٤٥٦٧٨٩'.indexOf(c):Number(c)]);
