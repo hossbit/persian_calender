@@ -19,7 +19,7 @@ for(const [style,title] of [['full','تاریخ شمسی کامل'],['numeric','
  write(`persian-${style}`,title,events);
 }
 for(const [file,title] of [['occasions','تعطیلات و مناسبت‌ها'],['holidays','تعطیلات'],['non-holidays','مناسبت‌های غیرتعطیل']]) {
- write(`${file}-current`,title+'؛ بدون پیش‌بینی سال‌های آینده',parse(file).filter(e=>!e.find(x=>x.startsWith('SUMMARY;')).includes('پیش‌بینی:')));
+ write(`${file}-current`,title+'؛ بدون پیش‌بینی سال‌های آینده',parse(file).filter(e=>!e.find(x=>x.startsWith('SUMMARY;')).startsWith('SUMMARY;LANGUAGE=fa:پیش‌بینی:')));
 }
 write('combined','تاریخ شمسی، تعطیلات و مناسبت‌ها',[...dates,...parse('occasions')]);
 const fridays=dates.filter(e=>dateOf(e).getUTCDay()===5).map(e=>e.map(line=>line.startsWith('UID:')?line.replace('UID:persian-','UID:friday-'):line.startsWith('SUMMARY;')?'SUMMARY;LANGUAGE=fa:جمعه':line));

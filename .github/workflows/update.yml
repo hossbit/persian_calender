@@ -40,6 +40,7 @@ jobs:
           node scripts/test.mjs
           node scripts/test-occasions.mjs
           node scripts/test-variants.mjs
+          node scripts/test-simulation.mjs
       - name: انتشار در همان لینک ثابت
         run: |
           git config user.name 'github-actions[bot]'

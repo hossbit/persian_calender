@@ -38,6 +38,7 @@ node scripts/variants.mjs
 node scripts/test.mjs
 node scripts/test-occasions.mjs
 node scripts/test-variants.mjs
+node scripts/test-simulation.mjs
 ```
 
 دریافت مناسبت‌ها به شبکه نیاز دارد. بررسی‌ها شامل نوروز و کبیسه، پیوستگی روزها، شناسه‌های یکتا، فارسی بودن متن تاریخ، محدودیت طول خطوط و ساختار همهٔ فیدهاست. تصاویر راهنما شبیه‌سازی‌اند و آزمون خودکار جای بررسی روی آیفون واقعی را نمی‌گیرد.
