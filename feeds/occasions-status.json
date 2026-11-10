@@ -1,118 +1,118 @@
 {
-  "updated": "2026-11-09T11:53:21.955Z",
-  "events": 3578,
-  "holidays": 536,
+  "updated": "2026-11-10T11:27:02.898Z",
+  "events": 3579,
+  "holidays": 537,
   "sources": [
     {
       "year": 1395,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:08.995Z"
+      "lastSuccess": "2026-11-10T11:25:49.272Z"
     },
     {
       "year": 1396,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:12.942Z"
+      "lastSuccess": "2026-11-10T11:25:53.539Z"
     },
     {
       "year": 1397,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:16.763Z"
+      "lastSuccess": "2026-11-10T11:25:57.060Z"
     },
     {
       "year": 1398,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:21.261Z"
+      "lastSuccess": "2026-11-10T11:26:00.900Z"
     },
     {
       "year": 1399,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:25.036Z"
+      "lastSuccess": "2026-11-10T11:26:04.855Z"
     },
     {
       "year": 1400,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:29.105Z"
+      "lastSuccess": "2026-11-10T11:26:08.422Z"
     },
     {
       "year": 1401,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:32.948Z"
+      "lastSuccess": "2026-11-10T11:26:12.004Z"
     },
     {
       "year": 1402,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:36.866Z"
+      "lastSuccess": "2026-11-10T11:26:16.221Z"
     },
     {
       "year": 1403,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:40.695Z"
+      "lastSuccess": "2026-11-10T11:26:19.828Z"
     },
     {
       "year": 1404,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:44.634Z"
+      "lastSuccess": "2026-11-10T11:26:23.402Z"
     },
     {
       "year": 1405,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:44.703Z"
+      "lastSuccess": "2026-11-10T11:26:23.477Z"
     },
     {
       "year": 1406,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:48.545Z"
+      "lastSuccess": "2026-11-10T11:26:27.722Z"
     },
     {
       "year": 1407,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:52.408Z"
+      "lastSuccess": "2026-11-10T11:26:32.198Z"
     },
     {
       "year": 1408,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:55.996Z"
+      "lastSuccess": "2026-11-10T11:26:36.043Z"
     },
     {
       "year": 1409,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:52:59.641Z"
+      "lastSuccess": "2026-11-10T11:26:39.823Z"
     },
     {
       "year": 1410,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:53:03.181Z"
+      "lastSuccess": "2026-11-10T11:26:43.631Z"
     },
     {
       "year": 1411,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:53:06.653Z"
+      "lastSuccess": "2026-11-10T11:26:47.739Z"
     },
     {
       "year": 1412,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:53:10.115Z"
+      "lastSuccess": "2026-11-10T11:26:51.511Z"
     },
     {
       "year": 1413,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:53:13.860Z"
+      "lastSuccess": "2026-11-10T11:26:55.187Z"
     },
     {
       "year": 1414,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:53:17.799Z"
+      "lastSuccess": "2026-11-10T11:26:58.817Z"
     },
     {
       "year": 1415,
       "mode": "fresh",
-      "lastSuccess": "2026-11-09T11:53:21.643Z"
+      "lastSuccess": "2026-11-10T11:27:02.561Z"
     }
   ],
   "unavailable": [],
   "coverage": {
-    "start": "20161109",
-    "end": "20361109",
+    "start": "20161110",
+    "end": "20361110",
     "availableYears": [
       1395,
       1396,
