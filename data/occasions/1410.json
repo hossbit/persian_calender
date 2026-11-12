@@ -89,7 +89,7 @@
     "date": "1410-01-11",
     "events": [
       {
-        "description": "شهادت امام محمد باقر  (ع)",
+        "description": "شهادت امام محمد باقر (ع)",
         "is_holiday": false
       }
     ],
@@ -187,7 +187,7 @@
     "date": "1410-01-24",
     "events": [
       {
-        "description": "ولادت امام موسی کاظم  (ع)",
+        "description": "ولادت امام موسی کاظم (ع)",
         "is_holiday": false
       }
     ],
@@ -297,7 +297,7 @@
     "date": "1410-02-11",
     "events": [
       {
-        "description": "روزجهانی  کارگر",
+        "description": "روزجهانی کارگر",
         "is_holiday": false
       }
     ],
@@ -335,7 +335,7 @@
         "is_holiday": false
       },
       {
-        "description": "شهادت  امام زین العابدین (ع)",
+        "description": "شهادت امام زین العابدین (ع)",
         "is_holiday": false
       },
       {
@@ -565,7 +565,7 @@
     "date": "1410-03-29",
     "events": [
       {
-        "description": "رحلت  رسول اکرم؛شهادت امام حسن مجتبی (ع)",
+        "description": "رحلت رسول اکرم؛شهادت امام حسن مجتبی (ع)",
         "is_holiday": true
       }
     ],
@@ -735,7 +735,7 @@
     "date": "1410-05-07",
     "events": [
       {
-        "description": "اَمرداد روز،جشن  اَمردادگان",
+        "description": "اَمرداد روز،جشن اَمردادگان",
         "is_holiday": false
       },
       {
@@ -959,7 +959,7 @@
     "date": "1410-06-27",
     "events": [
       {
-        "description": "روز شعر و ادب پارسی و  روز بزرگداشت استاد شهریار",
+        "description": "روز شعر و ادب پارسی و روز بزرگداشت استاد شهریار",
         "is_holiday": false
       }
     ],
@@ -1207,7 +1207,7 @@
         "is_holiday": false
       },
       {
-        "description": "ولادت  امام محمد باقر (ع)",
+        "description": "ولادت امام محمد باقر (ع)",
         "is_holiday": false
       }
     ],
@@ -1673,7 +1673,7 @@
         "is_holiday": false
       },
       {
-        "description": "شهادت حضرت علی  (ع)",
+        "description": "شهادت حضرت علی (ع)",
         "is_holiday": true
       }
     ],
@@ -1831,7 +1831,7 @@
         "is_holiday": false
       },
       {
-        "description": "شهادت امام جعفر صادق  (ع)",
+        "description": "شهادت امام جعفر صادق (ع)",
         "is_holiday": true
       }
     ],
@@ -1949,7 +1949,7 @@
     "date": "1410-12-24",
     "events": [
       {
-        "description": "روز جهانی عدد پی  π",
+        "description": "روز جهانی عدد پی π",
         "is_holiday": false
       }
     ],
