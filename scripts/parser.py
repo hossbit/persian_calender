@@ -128,7 +128,7 @@ def parse_action(payload, year):
                 raise ValueError('Empty event title')
             key = f'{year:04d}-{month["month"]:02d}-{day:02d}'
             row = rows.setdefault(key, {'date': key, 'events': [], 'is_holiday': False})
-            item = {'description': title.strip(), 'is_holiday': event['is_holiday']}
+            item = {'description': re.sub(r'\s+', ' ', title).strip(), 'is_holiday': event['is_holiday']}
             if item not in row['events']:
                 row['events'].append(item)
             row['is_holiday'] |= item['is_holiday']

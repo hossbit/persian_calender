@@ -28,7 +28,7 @@ for(let y=year-10;y<=year+10;y++) {
  sources.push({year:y,mode,lastSuccess,...(errorMessage?{error:errorMessage}:{})}); for(const row of rows) all.set(row.date,row.events);
 }
 const fa=s=>s.replace(/[0-9٠-٩]/g,c=>'۰۱۲۳۴۵۶۷۸۹'['٠١٢٣٤٥٦٧٨٩'.includes(c)?'٠١٢٣٤٥٦٧٨٩'.indexOf(c):Number(c)]);
-const clean=s=>fa(s.replace(/\s*\[[^\]]*\]/g,'').replace(/[\r\n]+/g,' ').trim());
+const clean=s=>fa(s.replace(/\s*\[[^\]]*\]/g,'').replace(/\s+/g,' ').trim());
 const header=name=>['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//hossbit//Persian Occasions//FA','CALSCALE:GREGORIAN','METHOD:PUBLISH',`X-WR-CALNAME:${name}`,'REFRESH-INTERVAL;VALUE=DURATION:P1D','X-PUBLISHED-TTL:P1D'];
 const nonholidays=header('مناسبت‌های غیرتعطیل');
 const combined=header('تعطیلات و مناسبت‌های ایران'); const holidays=header('تعطیلات ایران'); let count=0;let holidayCount=0;
@@ -50,6 +50,8 @@ for(let d=start;d<end;d=new Date(+d+86400000)) {
  }
 }
 if(count<100||holidayCount<10)throw Error('Too few events; refusing publication');
+// Days that left the window never return, so their revisions need not be kept forever.
+for(const id of Object.keys(revisions))if(id.slice(-8)<iso(start))delete revisions[id];
 for(const [name,lines] of [['occasions',combined],['holidays',holidays],['non-holidays',nonholidays]]) {lines.push('END:VCALENDAR');writeFileSync(`feeds/${name}.ics`,lines.map(fold).join('\r\n')+'\r\n');}
 writeFileSync('data/occasions/revisions.json',JSON.stringify(revisions,null,2)+'\n');
 writeFileSync('feeds/occasions-status.json',JSON.stringify({updated:new Date().toISOString(),events:count,holidays:holidayCount,sources,unavailable,coverage:{start:iso(start),end:iso(new Date(+end-86400000)),availableYears:sources.map(s=>s.year)},futureDates:'برآورد و قابل تغییر'},null,2)+'\n');

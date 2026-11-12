@@ -1,6 +1,6 @@
 import {spawnSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
-import {fetchYear} from './source-data.mjs';
+import {fetchYear,validateYear} from './source-data.mjs';
 export const SOURCE_URL = 'https://www.time.ir/event-year';
 const parser = fileURLToPath(new URL('./parser.py', import.meta.url));
 export function parseYearResponse(text, year, action = false) {
@@ -18,10 +18,19 @@ export function actionIdFromScript(script) {
 export function createSourceClient({fetcher = fetch} = {}) {
   let pagePromise;
   let actionPromise;
+  // Every year depends on this page, so one transient failure gets a second attempt.
   const page = () => pagePromise ??= (async () => {
-    const response = await fetcher(SOURCE_URL, {signal: AbortSignal.timeout(20000)});
-    if (!response.ok) throw Error(`Calendar source page HTTP ${response.status}`);
-    return response.text();
+    for (let attempt = 0; ; attempt++) {
+      try {
+        const response = await fetcher(SOURCE_URL, {signal: AbortSignal.timeout(20000)});
+        if (response.ok) return await response.text();
+        const error = Error(`Calendar source page HTTP ${response.status}`);
+        error.permanent = response.status < 500 && response.status !== 429;
+        throw error;
+      } catch (error) {
+        if (attempt === 1 || error.permanent) throw error;
+      }
+    }
   })();
   const discover = () => actionPromise ??= (async () => {
     const html = await page();
@@ -44,19 +53,23 @@ export function createSourceClient({fetcher = fetch} = {}) {
   return async year => {
     const html = await page();
     const selected = html.match(/<input\b[^>]*\bid="year"[^>]*\bvalue="(\d+)"/);
+    let pageError;
     if (selected && Number(selected[1]) === year) {
-      return fetchYear(SOURCE_URL, year, {
-        fetcher: async () => ({ok: true, status: 200, text: async () => html}),
-        decode: async response => parseYearResponse(await response.text(), year),
-      });
+      // If the page markup changes, the year selector below can still supply this year.
+      try { return validateYear(parseYearResponse(html, year), year); } catch (error) { pageError = error; }
     }
-    const action = await discover();
-    return fetchYear(SOURCE_URL, year, {
-      fetcher, request: {method: 'POST', headers: {
-        'Next-Action': action, 'Content-Type': 'text/plain;charset=UTF-8',
-        Accept: 'text/x-component', Origin: new URL(SOURCE_URL).origin,
-      }, body: JSON.stringify([year])},
-      decode: async response => parseYearResponse(await response.text(), year, true),
-    });
+    try {
+      const action = await discover();
+      return await fetchYear(SOURCE_URL, year, {
+        fetcher, request: {method: 'POST', headers: {
+          'Next-Action': action, 'Content-Type': 'text/plain;charset=UTF-8',
+          Accept: 'text/x-component', Origin: new URL(SOURCE_URL).origin,
+        }, body: JSON.stringify([year])},
+        decode: async response => parseYearResponse(await response.text(), year, true),
+      });
+    } catch (error) {
+      if (pageError) error.message = `Page: ${pageError.message}; selector: ${error.message}`;
+      throw error;
+    }
   };
 }

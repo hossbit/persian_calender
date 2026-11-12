@@ -11,7 +11,10 @@ for(const file of ['occasions','holidays']) {
   const summary=block.match(/^SUMMARY;LANGUAGE=fa:(.+)$/m)[1];assert(/[\u0600-\u06ff]/.test(summary));
   assert(!block.includes('BEGIN:VALARM'));assert(block.includes('TRANSP:TRANSPARENT'));
   if(file==='holidays')assert(summary.includes('تعطیل:'));
+  assert(!/\s{2,}/.test(summary),summary);
  }
  assert(unfolded.includes('جشن نوروز'));
 }
+const first=readFileSync('feeds/persian.ics','utf8').match(/DTSTART;VALUE=DATE:(\d{8})/)[1];
+for(const id of Object.keys(JSON.parse(readFileSync('data/occasions/revisions.json','utf8'))))assert(id.slice(-8)>=first,id);
 console.log('Occasion feeds validated.');

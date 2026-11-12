@@ -44,4 +44,17 @@ assert.equal((await client(1405)).length,55);
 assert.equal((await client(1404)).length,55);
 assert(calls.some(([url])=>url.endsWith('/_next/static/chunks/year.js')));
 assert(calls.every(([url])=>new URL(url).hostname===new URL(SOURCE_URL).hostname));
+const spaced=actionPayload(1404).replace(/"title":"([^" ]+) /,'"title":"$1  \\n ');
+assert(!parseYearResponse(spaced,1404,true).some(r=>r.events.some(e=>/\s{2,}|\n/.test(e.description))));
+// A page whose event markup changed must fall back to the selector request for the selected year too.
+const selector=async(url,options)=>options?.method==='POST'
+ ?{ok:true,status:200,text:async()=>actionPayload(1405)}
+ :{ok:true,status:200,text:async()=>String(url)===SOURCE_URL?`<input id="year" value="1405">${months}<script src="/_next/static/chunks/year.js"></script>`:script};
+assert.equal((await createSourceClient({fetcher:selector})(1405)).length,55);
+await assert.rejects(createSourceClient({fetcher:async(url,options)=>options?.method==='POST'?{ok:false,status:404}:selector(url,options)})(1405),/Page: No events.*selector: HTTP 404/);
+let pageCalls=0;
+const flaky=createSourceClient({fetcher:async url=>{if(String(url)===SOURCE_URL&&++pageCalls===1)return {ok:false,status:503};return {ok:true,status:200,text:async()=>html};}});
+assert.equal((await flaky(1405)).length,55);assert.equal(pageCalls,2);
+pageCalls=0;
+await assert.rejects(createSourceClient({fetcher:async()=>{pageCalls++;return {ok:false,status:404};}})(1405),/HTTP 404/);assert.equal(pageCalls,1);
 console.log('Direct Calendar source parser and client checks passed: year proof, holidays, comments/entities, dynamic action and single-source requests.');
